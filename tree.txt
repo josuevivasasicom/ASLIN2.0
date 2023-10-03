@@ -1,0 +1,772 @@
+Listado de rutas de carpetas
+El número de serie del volumen es 4C6B-EC35
+C:\XAMPP\HTDOCS\GITHUB\CMS_MENA
++---assets
+|   +---css
+|   +---demo
+|   +---fonts
+|   +---img
+|   |   +---bg
+|   |   +---faces
+|   |   \---icons
+|   +---js
+|   |   +---core
+|   |   +---librerias
+|   |   |   \---node_modules
+|   |   |       +---@popperjs
+|   |   |       |   \---core
+|   |   |       |       +---dist
+|   |   |       |       |   +---cjs
+|   |   |       |       |   +---esm
+|   |   |       |       |   |   +---dom-utils
+|   |   |       |       |   |   +---modifiers
+|   |   |       |       |   |   \---utils
+|   |   |       |       |   \---umd
+|   |   |       |       \---lib
+|   |   |       |           +---dom-utils
+|   |   |       |           +---modifiers
+|   |   |       |           \---utils
+|   |   |       +---imask
+|   |   |       |   +---dist
+|   |   |       |   \---esm
+|   |   |       |       +---controls
+|   |   |       |       +---core
+|   |   |       |       \---masked
+|   |   |       |           \---pattern
+|   |   |       \---tippy.js
+|   |   |           +---animations
+|   |   |           +---dist
+|   |   |           +---headless
+|   |   |           |   \---dist
+|   |   |           \---themes
+|   |   \---plugins
+|   |       +---jtable
+|   |       |   +---extensions
+|   |       |   +---external
+|   |       |   +---localization
+|   |       |   \---themes
+|   |       |       +---basic
+|   |       |       +---jqueryui
+|   |       |       +---lightcolor
+|   |       |       |   +---blue
+|   |       |       |   +---gray
+|   |       |       |   +---green
+|   |       |       |   +---orange
+|   |       |       |   \---red
+|   |       |       \---metro
+|   |       |           +---blue
+|   |       |           +---brown
+|   |       |           +---crimson
+|   |       |           +---darkgray
+|   |       |           +---darkorange
+|   |       |           +---green
+|   |       |           +---lightgray
+|   |       |           +---pink
+|   |       |           +---purple
+|   |       |           \---red
+|   |       +---leoJsonExcel
+|   |       |   \---lib
+|   |       |       \---private
+|   |       +---select2
+|   |       \---spectrum
+|   +---plugins
+|   |   +---fpdf
+|   |   |   +---doc
+|   |   |   +---font
+|   |   |   +---makefont
+|   |   |   \---tutorial
+|   |   +---pdf
+|   |   |   +---utils
+|   |   |   \---vendor
+|   |   |       +---composer
+|   |   |       +---spipu
+|   |   |       |   \---html2pdf
+|   |   |       |       +---doc
+|   |   |       |       |   \---res
+|   |   |       |       +---examples
+|   |   |       |       |   \---res
+|   |   |       |       +---src
+|   |   |       |       |   +---config
+|   |   |       |       |   +---Debug
+|   |   |       |       |   +---Exception
+|   |   |       |       |   +---Extension
+|   |   |       |       |   |   \---Core
+|   |   |       |       |   +---locale
+|   |   |       |       |   +---Parsing
+|   |   |       |       |   +---Tag
+|   |   |       |       |   |   +---Html
+|   |   |       |       |   |   \---Svg
+|   |   |       |       |   \---Tests
+|   |   |       |       |       +---Debug
+|   |   |       |       |       +---Exception
+|   |   |       |       |       +---Image
+|   |   |       |       |       |   \---res
+|   |   |       |       |       +---Output
+|   |   |       |       |       +---Parsing
+|   |   |       |       |       \---Tag
+|   |   |       |       |           \---Svg
+|   |   |       |       \---test
+|   |   |       \---tecnickcom
+|   |   |           \---tcpdf
+|   |   |               +---.github
+|   |   |               +---config
+|   |   |               +---examples
+|   |   |               |   +---barcodes
+|   |   |               |   +---config
+|   |   |               |   +---data
+|   |   |               |   |   \---cert
+|   |   |               |   +---images
+|   |   |               |   \---lang
+|   |   |               +---fonts
+|   |   |               |   +---ae_fonts_2.0
+|   |   |               |   +---dejavu-fonts-ttf-2.33
+|   |   |               |   +---dejavu-fonts-ttf-2.34
+|   |   |               |   +---freefont-20100919
+|   |   |               |   \---freefont-20120503
+|   |   |               +---include
+|   |   |               |   \---barcodes
+|   |   |               \---tools
+|   |   \---phpmailer
+|   |       +---PHPMailer
+|   |       |   +---docs
+|   |       |   +---examples
+|   |       |   |   +---images
+|   |       |   |   +---scripts
+|   |       |   |   \---styles
+|   |       |   +---extras
+|   |       |   +---language
+|   |       |   \---test
+|   |       \---vendor
+|   |           +---composer
+|   |           +---firebase
+|   |           |   \---php-jwt
+|   |           |       +---src
+|   |           |       \---tests
+|   |           +---google
+|   |           |   +---apiclient
+|   |           |   |   +---examples
+|   |           |   |   |   +---styles
+|   |           |   |   |   \---templates
+|   |           |   |   +---src
+|   |           |   |   |   \---Google
+|   |           |   |   |       +---AccessToken
+|   |           |   |   |       +---AuthHandler
+|   |           |   |   |       +---Http
+|   |           |   |   |       +---Service
+|   |           |   |   |       +---Task
+|   |           |   |   |       \---Utils
+|   |           |   |   +---style
+|   |           |   |   \---tests
+|   |           |   |       +---config
+|   |           |   |       +---examples
+|   |           |   |       \---Google
+|   |           |   |           +---AccessToken
+|   |           |   |           +---Http
+|   |           |   |           +---Service
+|   |           |   |           +---Task
+|   |           |   |           \---Utils
+|   |           |   +---apiclient-services
+|   |           |   |   +---src
+|   |           |   |   |   \---Google
+|   |           |   |   |       \---Service
+|   |           |   |   |           +---Acceleratedmobilepageurl
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdExchangeBuyer
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdExchangeBuyerII
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdExchangeSeller
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdExperienceReport
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdSense
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AdSenseHost
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Analytics
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AnalyticsReporting
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AndroidEnterprise
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AndroidManagement
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AndroidProvisioningPartner
+|   |           |   |   |           +---AndroidPublisher
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Appengine
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Appsactivity
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---AppState
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Autoscaler
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Bigquery
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---BigQueryDataTransfer
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Blogger
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Books
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Calendar
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Chromewebstore
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Cih
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CivicInfo
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Classroom
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Cloudbilling
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudBuild
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudDebugger
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Clouderrorreporting
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudFunctions
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudIot
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudKMS
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Cloudlatencytest
+|   |           |   |   |           +---CloudMachineLearning
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudMachineLearningEngine
+|   |           |   |   |           +---CloudMonitoring
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudNaturalLanguage
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudNaturalLanguageAPI
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudOSLogin
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudResourceManager
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudRuntimeConfig
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudSourceRepositories
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudSpeechAPI
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudTasks
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudTrace
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudUserAccounts
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---CloudVideoIntelligence
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Compute
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ConsumerSurveys
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Container
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Coordinate
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Customsearch
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Dataflow
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Dataproc
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Datastore
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---DataTransfer
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---DeploymentManager
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Devprojects
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Dfareporting
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Directory
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---DLP
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Dns
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---DoubleClickBidManager
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Doubleclicksearch
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Drive
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---FirebaseDynamicLinks
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---FirebaseDynamicLinksAPI
+|   |           |   |   |           +---FirebaseRemoteConfig
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---FirebaseRules
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---FirebaseRulesAPI
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Firestore
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Fitness
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---FlightAvailability
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Freebase
+|   |           |   |   |           +---Fusiontables
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Games
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---GamesConfiguration
+|   |           |   |   |           +---GamesManagement
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Genomics
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Gmail
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---GroupsMigration
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Groupssettings
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Iam
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---IdentityToolkit
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Kgsearch
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Licensing
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Logging
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Manager
+|   |           |   |   |           +---ManufacturerCenter
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Mirror
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Monitoring
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Oauth2
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Pagespeedonline
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Partners
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---People
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---PeopleService
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Playcustomapp
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---PlayMovies
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Playmoviespartner
+|   |           |   |   |           +---Plus
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---PlusDomains
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Prediction
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Proximitybeacon
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Pubsub
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---QPXExpress
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Replicapool
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Replicapoolupdater
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Reportcard
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Reports
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Reseller
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Resourceviews
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Safebrowsing
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Script
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---SearchConsole
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ServiceControl
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ServiceManagement
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ServiceRegistry
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ServiceUser
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Sheets
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ShoppingContent
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---SiteVerification
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Slides
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Spanner
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Spectrum
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Speech
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---SQLAdmin
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Storage
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Storagetransfer
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---StreetViewPublish
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Surveys
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---TagManager
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Taskqueue
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Tasks
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Testing
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---ToolResults
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Tracing
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Translate
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Urlshortener
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Vault
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Vision
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Webfonts
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---Webmasters
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---YouTube
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           +---YouTubeAnalytics
+|   |           |   |   |           |   \---Resource
+|   |           |   |   |           \---YouTubeReporting
+|   |           |   |   |               \---Resource
+|   |           |   |   \---tests
+|   |           |   \---auth
+|   |           |       +---src
+|   |           |       |   +---Credentials
+|   |           |       |   +---HttpHandler
+|   |           |       |   +---Middleware
+|   |           |       |   \---Subscriber
+|   |           |       \---tests
+|   |           |           +---Credentials
+|   |           |           +---fixtures
+|   |           |           |   \---.config
+|   |           |           |       \---gcloud
+|   |           |           +---fixtures2
+|   |           |           |   \---.config
+|   |           |           |       \---gcloud
+|   |           |           +---HttpHandler
+|   |           |           +---Middleware
+|   |           |           +---mocks
+|   |           |           \---Subscriber
+|   |           +---guzzlehttp
+|   |           |   +---guzzle
+|   |           |   |   \---src
+|   |           |   |       +---Cookie
+|   |           |   |       +---Exception
+|   |           |   |       \---Handler
+|   |           |   +---promises
+|   |           |   |   \---src
+|   |           |   \---psr7
+|   |           |       +---src
+|   |           |       \---tests
+|   |           +---monolog
+|   |           |   \---monolog
+|   |           |       +---doc
+|   |           |       +---src
+|   |           |       |   \---Monolog
+|   |           |       |       +---Formatter
+|   |           |       |       +---Handler
+|   |           |       |       |   +---Curl
+|   |           |       |       |   +---FingersCrossed
+|   |           |       |       |   +---Slack
+|   |           |       |       |   \---SyslogUdp
+|   |           |       |       \---Processor
+|   |           |       \---tests
+|   |           |           \---Monolog
+|   |           |               +---Formatter
+|   |           |               +---Handler
+|   |           |               |   +---Fixtures
+|   |           |               |   \---Slack
+|   |           |               \---Processor
+|   |           +---paypal
+|   |           |   \---rest-api-sdk-php
+|   |           |       +---.github
+|   |           |       \---lib
+|   |           |           \---PayPal
+|   |           |               +---Api
+|   |           |               +---Auth
+|   |           |               +---Cache
+|   |           |               +---Common
+|   |           |               +---Converter
+|   |           |               +---Core
+|   |           |               +---Exception
+|   |           |               +---Handler
+|   |           |               +---Log
+|   |           |               +---Rest
+|   |           |               +---Security
+|   |           |               +---Transport
+|   |           |               \---Validation
+|   |           +---phpseclib
+|   |           |   \---phpseclib
+|   |           |       \---phpseclib
+|   |           |           +---Crypt
+|   |           |           +---File
+|   |           |           |   \---ASN1
+|   |           |           +---Math
+|   |           |           +---Net
+|   |           |           |   \---SFTP
+|   |           |           \---System
+|   |           |               \---SSH
+|   |           |                   \---Agent
+|   |           \---psr
+|   |               +---cache
+|   |               |   \---src
+|   |               +---http-message
+|   |               |   \---src
+|   |               \---log
+|   |                   \---Psr
+|   |                       \---Log
+|   |                           \---Test
+|   \---scss
+|       \---paper-dashboard
+|           +---cards
+|           +---mixins
+|           \---plugins
++---avatares
+|   +---user1
+|   +---user10
+|   +---user11
+|   +---user13
+|   +---user14
+|   +---user16
+|   +---user2
+|   +---user3
+|   +---user4
+|   +---user5
+|   +---user6
+|   +---user7
+|   +---user8
+|   \---user9
++---core
+|   +---app
+|   |   +---action
+|   |   |   +---abogados
+|   |   |   +---charts
+|   |   |   |   \---abogado
+|   |   |   +---config
+|   |   |   +---jtable
+|   |   |   +---mail
+|   |   |   +---pdf
+|   |   |   |   +---formato
+|   |   |   |   \---vendor
+|   |   |   |       +---composer
+|   |   |   |       +---spipu
+|   |   |   |       |   \---html2pdf
+|   |   |   |       |       +---doc
+|   |   |   |       |       |   \---res
+|   |   |   |       |       +---examples
+|   |   |   |       |       |   \---res
+|   |   |   |       |       +---src
+|   |   |   |       |       |   +---config
+|   |   |   |       |       |   +---Debug
+|   |   |   |       |       |   +---Exception
+|   |   |   |       |       |   +---Extension
+|   |   |   |       |       |   |   \---Core
+|   |   |   |       |       |   +---locale
+|   |   |   |       |       |   +---Parsing
+|   |   |   |       |       |   +---Tag
+|   |   |   |       |       |   |   +---Html
+|   |   |   |       |       |   |   \---Svg
+|   |   |   |       |       |   \---Tests
+|   |   |   |       |       |       +---Debug
+|   |   |   |       |       |       +---Exception
+|   |   |   |       |       |       +---Image
+|   |   |   |       |       |       |   \---res
+|   |   |   |       |       |       +---Output
+|   |   |   |       |       |       +---Parsing
+|   |   |   |       |       |       \---Tag
+|   |   |   |       |       |           \---Svg
+|   |   |   |       |       \---test
+|   |   |   |       \---tecnickcom
+|   |   |   |           \---tcpdf
+|   |   |   |               +---.github
+|   |   |   |               +---config
+|   |   |   |               +---examples
+|   |   |   |               |   +---barcodes
+|   |   |   |               |   +---config
+|   |   |   |               |   +---data
+|   |   |   |               |   |   \---cert
+|   |   |   |               |   +---images
+|   |   |   |               |   \---lang
+|   |   |   |               +---fonts
+|   |   |   |               |   +---ae_fonts_2.0
+|   |   |   |               |   +---dejavu-fonts-ttf-2.33
+|   |   |   |               |   +---dejavu-fonts-ttf-2.34
+|   |   |   |               |   +---freefont-20100919
+|   |   |   |               |   \---freefont-20120503
+|   |   |   |               +---include
+|   |   |   |               |   \---barcodes
+|   |   |   |               \---tools
+|   |   |   +---poliza
+|   |   |   +---siniestro
+|   |   |   \---usuario
+|   |   +---layouts
+|   |   |   +---cmaLayout
+|   |   |   \---unsetUser
+|   |   +---model
+|   |   \---view
+|   |       +---abogado
+|   |       |   +---config
+|   |       |   \---siniestro
+|   |       |       \---ver
+|   |       +---admin
+|   |       |   +---config
+|   |       |   \---siniestro
+|   |       |       \---ver
+|   |       +---jefe
+|   |       |   +---config
+|   |       |   \---siniestro
+|   |       |       \---ver
+|   |       +---js
+|   |       |   \---siniestro
+|   |       |       \---ver
+|   |       \---usuario
+|   |           \---siniestro
+|   |               +---ver
+|   |               \---verTodos
+|   \---controller
++---db-respaldo
++---documentacion
++---pdf
+|   +---calibri
+|   +---formato
+|   \---vendor
+|       +---composer
+|       +---spipu
+|       |   \---html2pdf
+|       |       +---doc
+|       |       |   \---res
+|       |       +---examples
+|       |       |   \---res
+|       |       +---src
+|       |       |   +---config
+|       |       |   +---Debug
+|       |       |   +---Exception
+|       |       |   +---Extension
+|       |       |   |   \---Core
+|       |       |   +---locale
+|       |       |   +---Parsing
+|       |       |   +---Tag
+|       |       |   |   +---Html
+|       |       |   |   \---Svg
+|       |       |   \---Tests
+|       |       |       +---Debug
+|       |       |       +---Exception
+|       |       |       +---Image
+|       |       |       |   \---res
+|       |       |       +---Output
+|       |       |       +---Parsing
+|       |       |       \---Tag
+|       |       |           \---Svg
+|       |       \---test
+|       \---tecnickcom
+|           +---tcpdf
+|           |   +---config
+|           |   +---examples
+|           |   |   +---barcodes
+|           |   |   +---config
+|           |   |   +---data
+|           |   |   |   \---cert
+|           |   |   +---images
+|           |   |   \---lang
+|           |   +---fonts
+|           |   |   +---ae_fonts_2.0
+|           |   |   +---dejavu-fonts-ttf-2.27
+|           |   |   +---dejavu-fonts-ttf-2.33
+|           |   |   +---dejavu-fonts-ttf-2.34
+|           |   |   +---freefont-20080323
+|           |   |   +---freefont-20100919
+|           |   |   +---freefont-20120503
+|           |   |   \---utils
+|           |   |       +---enc
+|           |   |       \---src
+|           |   +---include
+|           |   |   \---barcodes
+|           |   \---tools
+|           +---tcpdf - copia
+|           |   +---.github
+|           |   +---config
+|           |   +---examples
+|           |   |   +---barcodes
+|           |   |   +---config
+|           |   |   +---data
+|           |   |   |   \---cert
+|           |   |   +---images
+|           |   |   \---lang
+|           |   +---fonts
+|           |   |   +---ae_fonts_2.0
+|           |   |   +---dejavu-fonts-ttf-2.27
+|           |   |   +---dejavu-fonts-ttf-2.33
+|           |   |   +---dejavu-fonts-ttf-2.34
+|           |   |   +---freefont-20080323
+|           |   |   +---freefont-20100919
+|           |   |   +---freefont-20120503
+|           |   |   \---utils
+|           |   |       +---enc
+|           |   |       \---src
+|           |   +---include
+|           |   |   \---barcodes
+|           |   \---tools
+|           \---tcpdf-6.2 no found
+|               +---.github
+|               +---config
+|               +---examples
+|               |   +---barcodes
+|               |   +---config
+|               |   +---data
+|               |   |   \---cert
+|               |   +---images
+|               |   \---lang
+|               +---fonts
+|               |   +---ae_fonts_2.0
+|               |   +---dejavu-fonts-ttf-2.27
+|               |   +---dejavu-fonts-ttf-2.33
+|               |   +---dejavu-fonts-ttf-2.34
+|               |   +---freefont-20080323
+|               |   +---freefont-20100919
+|               |   +---freefont-20120503
+|               |   \---utils
+|               |       +---enc
+|               |       \---src
+|               +---include
+|               |   \---barcodes
+|               \---tools
++---PHPMailer5
+|   +---docs
+|   +---examples
+|   |   +---images
+|   |   +---scripts
+|   |   \---styles
+|   +---extras
+|   +---language
+|   \---test
+\---vendor
+    +---composer
+    \---phpmailer
+        \---phpmailer
+            +---language
+            \---src

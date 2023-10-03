@@ -1,0 +1,141 @@
+sacado del preliminar  
+
+
+
+<table align="center" border="2" cellspacing="0" class="anexoTabla" style="border-collapse:collapse; border:solid 2px red; width:100%">
+          <thead>
+            <tr>
+              <td style=" width:100%" colspan="5"> </td>
+            </tr>
+            <tr>
+              <th style="text-align:center" colspan="2" >NÚMERO DE P&Oacute;LIZA</th>
+              <th style="text-align:center" colspan="2" >NOMBRE DEL CONTRATANTE/ASEGURADO</th>
+              <th style="text-align:center" >FECHA OCURRIDO</th>
+            </tr>
+            </thead>
+            <tbody>
+          <tr>
+              <td colspan="2">`+poliza+`</td>
+              <td colspan="2">`+nombre+`</td>
+              <td> </td>
+            </tr>
+            <tr>
+              <th colspan="5">NOMBRE DEL RECLAMANTE Y/O TERCERO</th>
+            </tr>
+            <tr>
+              <td colspan="5"> No aplica </td>
+            </tr>
+            <tr>
+              <th colspan="2">CAUSA PROBABLE</th>
+              <th colspan="2">LUGAR OCURRIDO</th>
+              <th>ESTADO/CIUDAD/POBLACI&Oacute;N</th>
+            </tr>
+            <tr>
+                <td colspan="2"> No aplica </td>
+                <td colspan="2">`+SiniestroID.estado+`</td>
+                <td>`+SiniestroID.ciudad+`</td>
+            </tr>
+            <tr>
+              <th colspan="2">AGENTE</th>
+              <td colspan="3" style="text-align:center">  </td>
+            </tr>
+            <tr>
+              <th colspan="2">PRACTICA</th>
+              <td colspan="3" style="text-align:center">  </td>
+            </tr>
+            <tr>
+              <th colspan="2">VIGENCIA</th>
+              <th rowspan="2">FECHA Y HORA<br /> DE REPORTE</th>
+              <th rowspan="2">FECHA Y HORA<br /> DE ASIGNACI&Oacute;N</th>
+              <th colspan="1" rowspan="2">FECHA Y HORA<br />DE 1A ATENCI&Oacute;N</th>
+            </tr>
+            <tr>
+              <th>INICIO</th>
+              <th>FIN</th>
+            </tr>
+            <tr>
+              <td rowspan="2">`+SiniestroID.vigencia1.split(' ')[0]+`</td>
+              <td rowspan="2">`+SiniestroID.vigencia2.split(' ')[0]+`</td>
+              <td>`+SiniestroID.fechaReporte.split(' ')[0]+`</td>
+              <td>`+SiniestroID.fechaAsignacion.split(' ')[0]+`</td>
+              <td>`+SiniestroID.fechaCaptura.split(' ')[0]+`</td>
+            </tr>
+            <tr>
+              <td>`+SiniestroID.fechaReporte.split(' ')[1]+`</td>
+              <td>`+SiniestroID.fechaAsignacion.split(' ')[1]+`</td>
+              <td>`+SiniestroID.fechaCaptura.split(' ')[1]+`</td>
+            </tr>
+            <tr>
+              <th colspan="5">AUTORIDAD: OIC / JUICIO CIVIL / JUICIO PENAL<br> RADICADO EN:</th>
+            </tr>
+            <tr>
+               <td colspan="5">`+SiniestroID.autoridad.toUpperCase()+`</td>
+              </tr>
+              <tr>
+                <th colspan="3">NO DE EXPEDIENTE:</th>
+                <td colspan="2" style="text-align:center">{DATO}</td>
+              </tr>
+              <tr>
+                <th colspan="3">ETAPA DE LA INDAGATORIA Y/O JUICIO</th>
+                <td colspan="2" style="text-align:center">{DATO}</td>
+              </tr>
+              <tr>
+                <th colspan="5">BREVE DESCRIPCI&Oacute;N DE LOS HECHOS&nbsp;</th>
+              </tr>
+            </tbody>
+        </table>
+
+        <p style="text-align:justify">Descripción: &nbsp;</p>
+
+         <table align="center" border="1" cellspacing="0" class="anexoTabla" style="border-collapse:collapse; border:solid 1px black; width:100%">
+            <thead>
+            <tr>
+              <td colspan="5" style="text-align:center">&nbsp;</td>
+            </tr>
+            </thead>
+            <tbody>
+            
+            <tr>
+              <th colspan="2">CAUSA PR&Oacute;XIMA DEL</th>
+              <td colspan="3" rowspan="1" style="text-align:center">&nbsp;</td>
+            </tr>
+            <tr>
+              <th colspan="5">RECLAMACI&Oacute;N</th>
+            </tr>
+            <tr>
+              <th colspan="2">PROCEDENTE</th>
+              <th colspan="2">IMPROCEDENTE</th>
+              <th>POR DETERMINAR</th>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">&nbsp;</td>
+              <td colspan="2" style="text-align:center">&nbsp;</td>
+              <td style="text-align:center">&nbsp;</td>
+            </tr>
+            <tr>
+              <th colspan="5">PARA CUALQUIER CASO, FUNDAMENTO:</th>
+            </tr>
+            <tr>
+              <td colspan="5" style="text-align:center">&nbsp;</td>
+            </tr>
+            <tr>
+              <th colspan="5">RESERVA RECOMENDADA</th>
+            </tr>
+            <tr>
+              <th colspan="2">SUMA ASEGURADA</th>
+              <th>ESTIMACI&Oacute;N ASEGURADA</th>
+              <th>IMPORTE RECLAMADO</th>
+              <th>RESERVA RECOMENDADA</th>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">&nbsp;</td>
+              <td style="text-align:center">&nbsp;</td>
+              <td style="text-align:center">&nbsp;</td>
+              <td style="text-align:center">&nbsp;</td>
+            </tr>
+            <tr>
+              <th colspan="5">OBSERVACIONES</th>
+            </tr>
+          </tbody>
+        </table>
+        Observaciones:

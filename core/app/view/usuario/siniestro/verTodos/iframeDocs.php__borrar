@@ -1,0 +1,90 @@
+<?php //prueba 2 
+// log_errors('on');
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL & ~E_DEPRECATED);
+
+?>
+<center>
+<div class="row">
+    <div class="col-2">
+    <!-- <button type="button" onclick="disparadorFile()" class="btn btn-primary">añadir archivo</button> -->
+    </div>
+    <div class="col-10">
+    <div class="table">
+        <table class="table" id="table-body-docs">
+        <tr>
+            <th>ETAPA</th>
+            <th>CAT1</th>
+            <th>CAT2</th>
+            <th>REV</th>
+            <th>FECHA</th>
+            <th>ver</th>
+        </tr>
+        
+        <?php
+        print_r(get_include_path());
+        $timerst = $_REQUEST['timerst'];
+         include "../../core/app/model/Siniestros.php";
+        // $files_sn = Siniestros::verArchivosdelSiniestro($timerst);
+        $sql="SELECT s.*,lpad(s.version,2,'0') version,UPPER(c1.valor) c1,UPPER(c2.valor) c2,UPPER(c3.valor) c3 FROM `siniestros_files` s
+        LEFT JOIN config_files c1 on c1.id = id_config_files
+        LEFT JOIN config_files c2 on c2.id = c1.parent
+        LEFT JOIN config_files c3 on c3.id = c2.parent
+        where s.timerst = '".$timerst."' order by c3.id,c2.id,s.version DESC";
+        $query = Database::ExeDoIt($sql);
+        $data = Model::many_assoc($query[0]);
+        $files_sn = $data;
+
+        if (count($files_sn)>=1){
+            $col="";
+            $render='no';
+            foreach ($files_sn as $k) {
+                switch ($k['nombre']) {
+                    case 'primeraAtencion':
+                    $k['c1'] = 'PRIMERA ATENCIÓN';
+                    $k['c2'] = 'PRIMERA ATENCIÓN';
+                    $k['c3'] = 'PRIMERA ATENCIÓN';
+                    $render='si';
+                    break;
+                    case 'informePreliminar':
+                    $k['c1'] = 'INFORME PRELIMINAR';
+                    $k['c2'] = 'INFORME PRELIMINAR';
+                    $k['c3'] = 'INFORME PRELIMINAR';
+                    $render='si';
+                    break;
+                    case 'informeCancelación':
+                    $k['c1'] = 'INFORME CANCELACIÓN';
+                    $k['c2'] = 'INFORME CANCELACIÓN';
+                    $k['c3'] = 'INFORME CANCELACIÓN';
+                    $render='si';
+                    break;
+                }
+                $col.='<tr> '.
+                '<td style="text-transform:lowercase;" >'.$k['c1'].'</td>'.
+                '<td style="text-transform:lowercase;" >'.$k['c2'].'</td>'.
+                '<td style="text-transform:lowercase;" >'.$k['c3'].'</td>'.
+                '<td style="text-transform:lowercase;" >'.$k['version'].'</td>'.
+                '<td style="text-transform:lowercase;" >'.$k['fecha'].'</td>';
+                if ($render == 'si') {//necesita renderizar documento,
+                $col.='<td style="text-transform:lowercase;" ><button onclick="vierFileF( \''.$k['timerst'].'\'  ,\''.$k['url'].'\',  \''.$k['c1'].'\'  )" class="btn btn-primary" data-toggle="modal" data-target="#modalFileView">ver</button></td>'.
+                    '</tr>';
+                }else{
+                    //no necesita renderizar, baja el archivo tal cual
+                    $col.='<td style="text-transform:lowercase;" ><button onclick="vierFileD( \''.$k['timerst'].'\'  ,\''.$k['url'].'\',  \''.$k['c1'].'\'  )" class="btn btn-primary" data-toggle="modal" data-target="#modalFileView">ver</button></td>'.
+                    '</tr>';
+                }
+            }
+            print $col;
+        }
+        else{//si no hay archivos
+            print "<tr><td colspan='6' class='text-center'>No hay archivos cargados aún.</td></tr>";
+        }
+        /*  core::preprint($files_sn);
+        var_dump($files_sn); */
+        ?>
+        </table>
+    </div> <!-- table responsive -->
+    </div>
+</div>
+</center>

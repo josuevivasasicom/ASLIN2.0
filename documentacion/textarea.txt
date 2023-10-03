@@ -1,0 +1,3643 @@
+Array(
+status=>
+58
+method =>
+Asunto civil
+)
+array(
+status=>
+59
+method =>
+Cesamed
+)
+array(
+status=>
+60
+method =>
+Comisión estatal de arbitraje médico.
+)
+array(
+status=>
+61
+method =>
+Comisión estatal de Derechos Humanos.
+)
+array(
+status=>
+62
+method =>
+Comisión nacional de arbitraje médico.
+)
+array(
+status=>
+63
+method =>
+Comisión nacional de Derechos Humanos.
+)
+array(
+status=>
+64
+method =>
+Demanda civil/juzgado civil.
+)
+array(
+status=>
+65
+method =>
+Demanda mercantil/juzgado civil.
+)
+array(
+status=>
+66
+method =>
+Juez de control del Estado.
+)
+array(
+status=>
+67
+method =>
+Juez de Distrito en materia de amparo.
+)
+array(
+status=>
+68
+method =>
+Juez Penal Federal.
+)
+array(
+status=>
+69
+method =>
+Órgano administrativo desconcentrado especializado en mecanismos alternativos de solución de controversias en materia Penal Órgano interno de control en la secretaría de gobernación.
+)
+array(
+status=>
+70
+method =>
+Organo interno de control en capufe.
+)
+array(
+status=>
+71
+method =>
+Órgano interno de control en el centro de investigación científica v de educación superior de ensenada, baja california. Contraloría interna de los servicios de aguas de la ciudad de México.
+)
+array(
+status=>
+72
+method =>
+Órgano interno de control en el consejo de promoción turística de México.
+)
+array(
+status=>
+73
+method =>
+Órgano interno de control en el fideicomiso de fomento minero.
+)
+array(
+status=>
+74
+method =>
+Órgano interno de control en el fondo nacional de fomento al turismo v empresas de participación accionaria.
+)
+array(
+status=>
+75
+method =>
+Órgano interno de control en el hospital Gea González.
+)
+array(
+status=>
+76
+method =>
+Órgano interno de control en el hospital general de México.
+)
+array(
+status=>
+77
+method =>
+Órgano interno de control en el hospital infantil de México.
+)
+array(
+status=>
+78
+method =>
+Órgano interno de control en el instituto de seguridad v servicios sociales de los trabajadores del Estado.
+)
+array(
+status=>
+79
+method =>
+Órgano interno de control en el instituto mexicano del seguro social
+)
+array(
+status=>
+80
+method =>
+Órgano interno de control en el instituto mora.
+)
+array(
+status=>
+81
+method =>
+Órgano interno de control en el instituto nacional de cancerología.
+)
+array(
+status=>
+82
+method =>
+Órgano interno de control en el instituto nacional de cardiología.
+)
+array(
+status=>
+83
+method =>
+Órgano interno de control en el instituto nacional de ciencias médicas v nutrición.
+)
+array(
+status=>
+84
+method =>
+Órgano interno de control en el instituto nacional de enfermedades respiratorias.
+)
+array(
+status=>
+85
+method =>
+Órgano interno de control en el instituto nacional de las mujeres.
+)
+array(
+status=>
+86
+method =>
+Órgano interno de control en el instituto nacional de migración.
+)
+array(
+status=>
+87
+method =>
+Órgano interno de control en el instituto nacional de perinatología.
+)
+array(
+status=>
+88
+method =>
+Órgano interno de control en el instituto nacional de rehabilitación.
+)
+array(
+status=>
+89
+method =>
+Órgano interno de control en el laboratorios de biológicos v reactivos de México; s.a. De c.v
+)
+array(
+status=>
+90
+method =>
+Órgano interno de control en el organismo descentralizado en luz v fuerza del centro, en liquidación.
+)
+array(
+status=>
+91
+method =>
+Órgano interno de control en el servicio de administración tributaria.
+)
+array(
+status=>
+92
+method =>
+Órgano interno de control en el servicio de administración v enajenación de bienes.
+)
+array(
+status=>
+93
+method =>
+Órgano interno de control en la Comisión Federal de electricidad.
+)
+array(
+status=>
+94
+method =>
+Órgano interno de control en la Comisión nacional del agua.
+)
+array(
+status=>
+95
+method =>
+Órgano interno de control en la secretaría de agricultura, ganadería, desarrollo rural, pesca v alimentación.
+)
+array(
+status=>
+96
+method =>
+Órgano interno de control en la secretaría de comunicaciones v transportes.
+)
+array(
+status=>
+97
+method =>
+Órgano interno de control en la secretaría de cultural.
+)
+array(
+status=>
+98
+method =>
+Órgano interno de control en la secretaría de desarrollo agrario, territorial y urbano.
+)
+array(
+status=>
+99
+method =>
+Órgano interno de control en la secretaría de desarrollo nacional.
+)
+array(
+status=>
+100
+method =>
+Órgano interno de control en la secretaría de economía.
+)
+array(
+status=>
+101
+method =>
+Órgano interno de control en la secretaría de educación pública.
+)
+array(
+status=>
+102
+method =>
+Órgano interno de control en la secretaría de energía.
+)
+array(
+status=>
+103
+method =>
+Órgano interno de control en la secretaría de hacienda v crédito público.
+)
+array(
+status=>
+104
+method =>
+Órgano interno de control en la secretaría de la función pública.
+)
+array(
+status=>
+105
+method =>
+Órgano interno de control en la secretaría de medio ambiente y recursos naturales.
+)
+array(
+status=>
+106
+method =>
+Órgano interno de control en la secretaría de relaciones exteriores.
+)
+array(
+status=>
+107
+method =>
+Órgano interno de control en la secretaría de salud.
+)
+array(
+status=>
+108
+method =>
+Órgano interno de control en la secretaría de turismo.
+)
+array(
+status=>
+109
+method =>
+Órgano interno de control en la secretaría del trabajo y previsión social.
+)
+array(
+status=>
+110
+method =>
+procuraduría general de la república.
+)
+array(
+status=>
+111
+method =>
+procuraduría general del Estado.
+)
+array(
+status=>
+112
+method =>
+reclamación extrajudicia.
+)
+array(
+status=>
+113
+method =>
+Secretaria de la función pública de chihuahua.
+)
+array(
+status=>
+114
+method =>
+Tribunal colegiado.
+)
+array(
+status=>
+115
+method =>
+Capufe.
+)
+array(
+status=>
+116
+method =>
+Centro de investigación científica v de educación superior de ensenada, baja california. Servicios de aguas de la ciudad de México.
+)
+array(
+status=>
+117
+method =>
+clínica veterinaria kanis
+)
+array(
+status=>
+118
+method =>
+Comisión Federal de electricidad.
+)
+array(
+status=>
+119
+method =>
+Comisión nacional del agua.
+)
+array(
+status=>
+120
+method =>
+Fideicomiso de fomento minero.
+)
+array(
+status=>
+121
+method =>
+Fonapo.
+)
+array(
+status=>
+122
+method =>
+Fondo nacional de fomento al turismo v empresas de participación accionaria. Consejo de promoción turística de México.
+)
+array(
+status=>
+123
+method =>
+Grupo aeroportuario de la ciudad de México
+)
+array(
+status=>
+124
+method =>
+Hospital abc
+)
+array(
+status=>
+125
+method =>
+Hospital de traumatología v ortopedia puebla
+)
+array(
+status=>
+126
+method =>
+Hospital Gea González.
+)
+array(
+status=>
+127
+method =>
+Hospital general de México.
+)
+array(
+status=>
+128
+method =>
+Hospital infantil de México.
+)
+array(
+status=>
+129
+method =>
+Instituto de seguridad v servicios sociales de los trabajadores del Estado. Laboratorios de biológicos v reactivos de México; s.a. De c.v.
+)
+array(
+status=>
+130
+method =>
+Instituto mexicano del seguro social.
+)
+array(
+status=>
+131
+method =>
+Instituto mora.
+)
+array(
+status=>
+132
+method =>
+Instituto nacional de cancerología.
+)
+array(
+status=>
+133
+method =>
+Instituto nacional de cardiología.
+)
+array(
+status=>
+134
+method =>
+Instituto nacional de ciencias médicas v nutrición.
+)
+array(
+status=>
+135
+method =>
+Instituto nacional de enfermedades respiraldrias.
+)
+array(
+status=>
+136
+method =>
+Instituto nacional de las mujeres.
+)
+array(
+status=>
+137
+method =>
+Instituto nacional de migración.
+)
+array(
+status=>
+138
+method =>
+Instituto nacional de perinatología.
+)
+array(
+status=>
+139
+method =>
+Instituto nacional de rehabilitación.
+)
+array(
+status=>
+140
+method =>
+Luz v fuerza del centro, en liquidación.
+)
+array(
+status=>
+141
+method =>
+Medica sur.
+)
+array(
+status=>
+142
+method =>
+Particular.
+)
+array(
+status=>
+143
+method =>
+Sat.
+)
+array(
+status=>
+144
+method =>
+secretaría de agricultura, ganadería, desarrollo rural, pesca v alimentación. Secretaría de comunicaciones v transportes.
+)
+array(
+status=>
+145
+method =>
+secretaría de cultural.
+)
+array(
+status=>
+146
+method =>
+secretaría de desarrollo agrario, territorial v urbano.
+)
+array(
+status=>
+147
+method =>
+secretaría de desarrollo nacional.
+)
+array(
+status=>
+148
+method =>
+secretaría de economía.
+)
+array(
+status=>
+149
+method =>
+secretaría de educación pública.
+)
+array(
+status=>
+150
+method =>
+secretaría de energía.
+)
+array(
+status=>
+151
+method =>
+secretaría de gobernación.
+)
+array(
+status=>
+152
+method =>
+secretaría de hacienda v crédito público.
+)
+array(
+status=>
+153
+method =>
+secretaría de la función pública.
+)
+array(
+status=>
+154
+method =>
+secretaría de medio ambiente y recursos naturales.
+)
+array(
+status=>
+155
+method =>
+secretaría de relaciones exteriores.
+)
+array(
+status=>
+156
+method =>
+secretaría de salud.
+)
+array(
+status=>
+157
+method =>
+secretaría de turismo.
+)
+array(
+status=>
+158
+method =>
+secretaría del trabajo y previsión social.
+)
+array(
+status=>
+159
+method =>
+Servicio de administración tributaria.
+)
+array(
+status=>
+160
+method =>
+Servicio de administración v enajenación de bienes.
+)
+array(
+status=>
+161
+method =>
+Asesoría
+)
+array(
+status=>
+162
+method =>
+Procedente
+)
+array(
+status=>
+163
+method =>
+Improcedente
+)
+array(
+status=>
+164
+method =>
+Preventivo
+)
+array(
+status=>
+165
+method =>
+Reapertura
+)
+array(
+status=>
+166
+method =>
+Por determinar
+)
+array(
+status=>
+167
+method =>
+Vigente
+)
+array(
+status=>
+168
+method =>
+Pc
+)
+array(
+status=>
+169
+method =>
+Cancelado
+)
+array(
+status=>
+170
+method =>
+Por determinar
+)
+array(
+status=>
+171
+method =>
+Oic área de responsabilidades en el issste
+)
+array(
+status=>
+172
+method =>
+
+)
+array(
+status=>
+173
+method =>
+Viaticos::efe_pasaje
+)
+array(
+status=>
+174
+method =>
+Siniestroareas::rp_redaccion
+)
+array(
+status=>
+175
+method =>
+Proceso de cancelación
+)
+array(
+status=>
+176
+method =>
+Viaticos::efe_hospedaje
+)
+array(
+status=>
+177
+method =>
+Juzgado decimo primero en materia Penal en el d.f.
+)
+array(
+status=>
+178
+method =>
+Juzgado 10° de Distrito en materia de amparo Penal en el Distrito Federal
+)
+array(
+status=>
+179
+method =>
+Contraloria municipal de silao guanajuato.
+)
+array(
+status=>
+180
+method =>
+Unidad de asuntos juridicos del organo de fiscalizacion superior del congreso del Estado de chiapas
+)
+array(
+status=>
+181
+method =>
+Organo de fiscalizacion superior del congreso del Estado de chiapas.
+)
+array(
+status=>
+182
+method =>
+Organo superior de fiscalizacion del congreso del Estado de chiapas
+)
+array(
+status=>
+183
+method =>
+Organo de fiscalizacion superior del congreso de Estado de chiapas.
+)
+array(
+status=>
+184
+method =>
+Primera agencia especial de delitos contra la vida y la integridad fisica
+)
+array(
+status=>
+185
+method =>
+Ministerio publico de león guanajuato
+)
+array(
+status=>
+186
+method =>
+
+)
+array(
+status=>
+187
+method =>
+Juzgado 61 civil del d.f
+)
+array(
+status=>
+188
+method =>
+Medica sur
+)
+array(
+status=>
+189
+method =>
+Auditoria superior del Estado de coahuila
+)
+array(
+status=>
+190
+method =>
+Auditoria superior edo. Coahuila
+)
+array(
+status=>
+191
+method =>
+Auditoria superior edo. Coahuila
+)
+array(
+status=>
+192
+method =>
+S.s.a
+)
+array(
+status=>
+193
+method =>
+S.s.a
+)
+array(
+status=>
+194
+method =>
+Sistema municipal de saneamiento de agua de torreon  
+)
+array(
+status=>
+195
+method =>
+Sistema municipal de saneamiento de agua de torreon  
+)
+array(
+status=>
+196
+method =>
+Sistema municipal de agua y sanamiento de torreon
+)
+array(
+status=>
+197
+method =>
+Sistema municipal de agua y sanamiento de torreon
+)
+array(
+status=>
+198
+method =>
+Consejo promotor para el desarollo de la reserva territorial de torreon
+)
+array(
+status=>
+199
+method =>
+Consejo promotor para el desarollo de la reserva territorial de torreon
+)
+array(
+status=>
+200
+method =>
+Gobierno del Estado de san luis potosi
+)
+array(
+status=>
+201
+method =>
+Juzgado septimo de lo civil en el d.f.
+)
+array(
+status=>
+202
+method =>
+Gob. De chiapas
+)
+array(
+status=>
+203
+method =>
+Gob. De chiapas
+)
+array(
+status=>
+204
+method =>
+Juzgado 3° de lo civil
+)
+array(
+status=>
+205
+method =>
+Sae
+)
+array(
+status=>
+206
+method =>
+Sae
+)
+array(
+status=>
+207
+method =>
+Gob. De oaxaca
+)
+array(
+status=>
+208
+method =>
+Gob.oaxaca
+)
+array(
+status=>
+209
+method =>
+Imss
+)
+array(
+status=>
+210
+method =>
+Imss
+)
+array(
+status=>
+211
+method =>
+Demanda civil/juzgado civil
+)
+array(
+status=>
+212
+method =>
+Juzgado 29 de lo civil sec. B
+)
+array(
+status=>
+213
+method =>
+Juzgado 3 de lo civil sec.b
+)
+array(
+status=>
+214
+method =>
+Sist.municipal de aguas y saneamiento
+)
+array(
+status=>
+215
+method =>
+Sist.municipal de aguas y saneamiento
+)
+array(
+status=>
+216
+method =>
+Municipio de san pedro garza garcia
+)
+array(
+status=>
+217
+method =>
+Municipio de san pedro garza garcia
+)
+array(
+status=>
+218
+method =>
+Issste
+)
+array(
+status=>
+219
+method =>
+Issste
+)
+array(
+status=>
+220
+method =>
+Gob. Coahuila
+)
+array(
+status=>
+221
+method =>
+Gob. Coahuila
+)
+array(
+status=>
+222
+method =>
+Mun. De torreon
+)
+array(
+status=>
+223
+method =>
+Mun. De torreon
+)
+array(
+status=>
+224
+method =>
+Medica sur
+)
+array(
+status=>
+225
+method =>
+Santa teresa institucion gineco-obstetrica
+)
+array(
+status=>
+226
+method =>
+Gob. Coahuila (asf)
+)
+array(
+status=>
+227
+method =>
+Sagarpa
+)
+array(
+status=>
+228
+method =>
+Sagarpa
+)
+array(
+status=>
+229
+method =>
+Fonatur
+)
+array(
+status=>
+230
+method =>
+Fonatur
+)
+array(
+status=>
+231
+method =>
+Inm
+)
+array(
+status=>
+232
+method =>
+Inm
+)
+array(
+status=>
+233
+method =>
+Particular
+)
+array(
+status=>
+234
+method =>
+Gob. Del Estado de morelos
+)
+array(
+status=>
+235
+method =>
+Gob. Del Estado de morelos
+)
+array(
+status=>
+236
+method =>
+Juzgado cuadrágesimo tercero civil del d.f.
+)
+array(
+status=>
+237
+method =>
+Pronosticos para la asist. Publica
+)
+array(
+status=>
+238
+method =>
+Pronosticos para la asist. Publica
+)
+array(
+status=>
+239
+method =>
+Secretaria de economia
+)
+array(
+status=>
+240
+method =>
+Secretaria de economia
+)
+array(
+status=>
+241
+method =>
+Particular
+)
+array(
+status=>
+242
+method =>
+Clinica punto medico y hospital angeles clinica londres
+)
+array(
+status=>
+243
+method =>
+Instituto de ciencias medicas y nutricion salvador zubiran
+)
+array(
+status=>
+244
+method =>
+Inst. Nal. De ciencias medicas y nutricion salvador zubirán
+)
+array(
+status=>
+245
+method =>
+Juzgado 20 civil en el d.f.
+)
+array(
+status=>
+246
+method =>
+Hospital angeles roma
+)
+array(
+status=>
+247
+method =>
+Shcp
+)
+array(
+status=>
+248
+method =>
+Ssa
+)
+array(
+status=>
+249
+method =>
+Ssa
+)
+array(
+status=>
+250
+method =>
+Ministerio publico
+)
+array(
+status=>
+251
+method =>
+Inst. Nal. De nutricion
+)
+array(
+status=>
+252
+method =>
+Pgr
+)
+array(
+status=>
+253
+method =>
+Inst. Nac. De cancerologia
+)
+array(
+status=>
+254
+method =>
+Oic
+)
+array(
+status=>
+255
+method =>
+Sector salud
+)
+array(
+status=>
+256
+method =>
+Asesoria
+)
+array(
+status=>
+257
+method =>
+Centro medico abc observatorio
+)
+array(
+status=>
+258
+method =>
+Pronosticos para la asistencia publica
+)
+array(
+status=>
+259
+method =>
+Hospital infantil de mexico federico gomez
+)
+array(
+status=>
+260
+method =>
+Sat
+)
+array(
+status=>
+261
+method =>
+Oic en la sep
+)
+array(
+status=>
+262
+method =>
+Secretaria de medio ambiente y recursos naturales
+)
+array(
+status=>
+263
+method =>
+Sep
+)
+array(
+status=>
+264
+method =>
+Hosp. Infantil de mexico
+)
+array(
+status=>
+265
+method =>
+Conagua
+)
+array(
+status=>
+266
+method =>
+Consejo de promocion turistica, s.a. De c.v.
+)
+array(
+status=>
+267
+method =>
+Instituto nacional de cardiologia
+)
+array(
+status=>
+268
+method =>
+Sct
+)
+array(
+status=>
+269
+method =>
+Luz y fuerza
+)
+array(
+status=>
+270
+method =>
+Fifomi
+)
+array(
+status=>
+271
+method =>
+Procedimiento administrativo
+)
+array(
+status=>
+272
+method =>
+Gobierno del Estado de sonora
+)
+array(
+status=>
+273
+method =>
+Productora nacional de biologicos veterinarios
+)
+array(
+status=>
+274
+method =>
+Hospital infantil de mexico
+)
+array(
+status=>
+275
+method =>
+Demanda civil
+)
+array(
+status=>
+276
+method =>
+Diconsa
+)
+array(
+status=>
+277
+method =>
+Bansefi
+)
+array(
+status=>
+278
+method =>
+Shcp
+)
+array(
+status=>
+279
+method =>
+Averiguacion previa
+)
+array(
+status=>
+280
+method =>
+2 carpetas
+)
+array(
+status=>
+281
+method =>
+Contraloria
+)
+array(
+status=>
+282
+method =>
+Iner
+)
+array(
+status=>
+283
+method =>
+Contraloria municipal
+)
+array(
+status=>
+284
+method =>
+Gobierno del Estado de guanajuato
+)
+array(
+status=>
+285
+method =>
+Instituto nacional de ciencias medicas y nutricion "salvador zubiran"
+)
+array(
+status=>
+286
+method =>
+Centro de capacitacion cinematografica, ac.
+)
+array(
+status=>
+287
+method =>
+Conacyt
+)
+array(
+status=>
+288
+method =>
+Centro de enseñanza tecnica e industrial
+)
+array(
+status=>
+289
+method =>
+Gobierno del Estado de nuevo leon
+)
+array(
+status=>
+290
+method =>
+Auditoria interna
+)
+array(
+status=>
+291
+method =>
+Instituto del centro de enseñanza en jalisco
+)
+array(
+status=>
+292
+method =>
+Asf
+)
+array(
+status=>
+293
+method =>
+Oic de sep
+)
+array(
+status=>
+294
+method =>
+Carpeta judicial
+)
+array(
+status=>
+295
+method =>
+Carpeta de investigacion
+)
+array(
+status=>
+296
+method =>
+Telecomm
+)
+array(
+status=>
+297
+method =>
+Denuncia Penal
+)
+array(
+status=>
+298
+method =>
+Secretaria de turismo
+)
+array(
+status=>
+299
+method =>
+Cicese
+)
+array(
+status=>
+300
+method =>
+Centro de capacitación cinematográfica
+)
+array(
+status=>
+301
+method =>
+Carpeta judicial 5521/2017
+)
+array(
+status=>
+302
+method =>
+Estado de nuevo leon
+)
+array(
+status=>
+303
+method =>
+Sfp
+)
+array(
+status=>
+304
+method =>
+Instituto nacional de bio regeneración
+)
+array(
+status=>
+305
+method =>
+Municipio de celaya, gto.
+)
+array(
+status=>
+306
+method =>
+Demanda civil (juzgado 4to. Dtto)
+)
+array(
+status=>
+307
+method =>
+Secretaria de salud Federal
+)
+array(
+status=>
+308
+method =>
+Hospital angeles
+)
+array(
+status=>
+309
+method =>
+Secretaria de salud
+)
+array(
+status=>
+310
+method =>
+Sistema de aguas
+)
+array(
+status=>
+311
+method =>
+Instituto nacional de enfermedades respiratorias
+)
+array(
+status=>
+312
+method =>
+Instituto mexicano de cinematografía
+)
+array(
+status=>
+313
+method =>
+Sistemas de aguas
+)
+array(
+status=>
+314
+method =>
+fiscalía general del Estado de puebla
+)
+array(
+status=>
+315
+method =>
+Canc. Admva.
+)
+array(
+status=>
+316
+method =>
+Conamed
+)
+array(
+status=>
+317
+method =>
+Pgj
+)
+array(
+status=>
+318
+method =>
+Asenl
+)
+array(
+status=>
+319
+method =>
+Municipio de juarez, n.l.
+)
+array(
+status=>
+320
+method =>
+Area de quejas
+)
+array(
+status=>
+321
+method =>
+Procedimiento resarcitorio
+)
+array(
+status=>
+322
+method =>
+Centro medico de especialidades medicas
+)
+array(
+status=>
+323
+method =>
+Grupo aereoportuario internacional de la cdmx
+)
+array(
+status=>
+324
+method =>
+Asociacion medica del centro
+)
+array(
+status=>
+325
+method =>
+Queja
+)
+array(
+status=>
+326
+method =>
+Servicios jurídicos imss
+)
+array(
+status=>
+327
+method =>
+Asf
+)
+array(
+status=>
+328
+method =>
+Municipio escobedo, n.l.
+)
+array(
+status=>
+329
+method =>
+Unidad de responsabilidades de cfe
+)
+array(
+status=>
+330
+method =>
+Cfe
+)
+array(
+status=>
+331
+method =>
+Prospera
+)
+array(
+status=>
+332
+method =>
+Comision estatal de arbitraje medico
+)
+array(
+status=>
+333
+method =>
+Notaria 250
+)
+array(
+status=>
+334
+method =>
+reclamación extrajudicial
+)
+array(
+status=>
+335
+method =>
+Tfja
+)
+array(
+status=>
+336
+method =>
+Contraloria interna
+)
+array(
+status=>
+337
+method =>
+Issemym
+)
+array(
+status=>
+338
+method =>
+Exp. 2016/sagarpa/de348
+)
+array(
+status=>
+339
+method =>
+Exp: 2016/sagarpa/de421
+)
+array(
+status=>
+340
+method =>
+Exp: r-022/2018
+)
+array(
+status=>
+341
+method =>
+Exp. Cc.r0029/2018
+)
+array(
+status=>
+342
+method =>
+Instituto nacional de ciencias medicas y nutrición
+)
+array(
+status=>
+343
+method =>
+Municipio de san pedro de la garza
+)
+array(
+status=>
+344
+method =>
+Centro de enseñaza tecnica industrial
+)
+array(
+status=>
+345
+method =>
+Órgano interno de control en el instituto nacional de ciencias médicas y nutrición.
+)
+array(
+status=>
+346
+method =>
+Instituto nacional de ciencias médicas y nutrición.
+)
+array(
+status=>
+347
+method =>
+Auditoria superior de la federación
+)
+array(
+status=>
+348
+method =>
+Fondo de capitalización e inversión del sector rural
+)
+array(
+status=>
+349
+method =>
+Comisión nacional de arbitraje médico
+)
+array(
+status=>
+350
+method =>
+secretaría de comunicaciones y transportes.
+)
+array(
+status=>
+351
+method =>
+dirección general de geoestadistica y patrones de beneficiarios
+)
+array(
+status=>
+352
+method =>
+Sedesol
+)
+array(
+status=>
+353
+method =>
+fiscalía general de la república
+)
+array(
+status=>
+354
+method =>
+Archivo general de la nación
+)
+array(
+status=>
+355
+method =>
+Ministerio público de la federación
+)
+array(
+status=>
+356
+method =>
+Órgano interno de control en la secretaría de hacienda y crédito público.
+)
+array(
+status=>
+357
+method =>
+secretaría de hacienda y crédito público.
+)
+array(
+status=>
+358
+method =>
+Notaria
+)
+array(
+status=>
+359
+method =>
+secretaría de agricultura, ganadería, desarrollo rural, pesca y alimentación.
+)
+array(
+status=>
+360
+method =>
+secretaría de desarrollo agrario, territorial y urbano.
+)
+array(
+status=>
+361
+method =>
+Cofece
+)
+array(
+status=>
+362
+method =>
+procuraduría general de la justicia
+)
+array(
+status=>
+363
+method =>
+reasignación
+)
+array(
+status=>
+364
+method =>
+Órgano interno de control de la conamed
+)
+array(
+status=>
+365
+method =>
+Procedente
+)
+array(
+status=>
+366
+method =>
+Pgr
+)
+array(
+status=>
+367
+method =>
+Causa Penal 198/2018
+)
+array(
+status=>
+368
+method =>
+Gobierno del Estado de chihuahua
+)
+array(
+status=>
+369
+method =>
+Causa Penal 1260/2017
+)
+array(
+status=>
+370
+method =>
+Causa Penal 1841/2017
+)
+array(
+status=>
+371
+method =>
+Causa Penal 2289/2017
+)
+array(
+status=>
+372
+method =>
+Causa Penal 2299/2017
+)
+array(
+status=>
+373
+method =>
+Causa Penal 2159/2017
+)
+array(
+status=>
+374
+method =>
+Causa Penal 1232/2017
+)
+array(
+status=>
+375
+method =>
+Pad 027/2017
+)
+array(
+status=>
+376
+method =>
+Pad 045/2017
+)
+array(
+status=>
+377
+method =>
+Pad 025/2017
+)
+array(
+status=>
+378
+method =>
+Juzgado civil
+)
+array(
+status=>
+379
+method =>
+Oic fonatur
+)
+array(
+status=>
+380
+method =>
+Oic en fonatur
+)
+array(
+status=>
+381
+method =>
+Municipio de escobedo nuevo león
+)
+array(
+status=>
+382
+method =>
+Servicio nacional de sanidad, inocuidad y calidad agroalimentaria
+)
+array(
+status=>
+383
+method =>
+Ministerio público tlalpan
+)
+array(
+status=>
+384
+method =>
+Grupo aeroportuario de la cdmx
+)
+array(
+status=>
+385
+method =>
+Órgano interno de control grupo aeroportuario de la cdmx
+)
+array(
+status=>
+386
+method =>
+Grupo Ángeles
+)
+array(
+status=>
+387
+method =>
+Sindicato nacional de trabajadores
+)
+array(
+status=>
+388
+method =>
+Ángeles metropolitano
+)
+array(
+status=>
+389
+method =>
+Juzgado 3° de lo civil en celaya, guanajuato
+)
+array(
+status=>
+390
+method =>
+tesorería municipio de celaya guanajuato
+)
+array(
+status=>
+391
+method =>
+Secretaria de desarrollo agrario territorial y urbano
+)
+array(
+status=>
+392
+method =>
+Hospital sanangelin sur
+)
+array(
+status=>
+393
+method =>
+Oic diconsa
+)
+array(
+status=>
+394
+method =>
+Demanda mercantil/juzgado civil
+)
+array(
+status=>
+395
+method =>
+Órgano interno de control de la secretaria de cultura
+)
+array(
+status=>
+396
+method =>
+dirección general de sitios y monumentos del patrimonio cultural
+)
+array(
+status=>
+397
+method =>
+Oic en gacm
+)
+array(
+status=>
+398
+method =>
+Gacm
+)
+array(
+status=>
+399
+method =>
+Oic en fonapo
+)
+array(
+status=>
+400
+method =>
+Fonapo
+)
+array(
+status=>
+401
+method =>
+quirófanos polanco
+)
+array(
+status=>
+402
+method =>
+Hospital de traumatología y ortopedia puebla
+)
+array(
+status=>
+403
+method =>
+Secretaria de la función pública de chihuahua
+)
+array(
+status=>
+404
+method =>
+Gobierno chihuahua
+)
+array(
+status=>
+405
+method =>
+Gobierno de chihuahua
+)
+array(
+status=>
+406
+method =>
+Oic gacm
+)
+array(
+status=>
+407
+method =>
+función pública
+)
+array(
+status=>
+408
+method =>
+secretaría de cultura
+)
+array(
+status=>
+409
+method =>
+Oic shcp
+)
+array(
+status=>
+410
+method =>
+Oic capufe
+)
+array(
+status=>
+411
+method =>
+Capufe
+)
+array(
+status=>
+412
+method =>
+Cofece
+)
+array(
+status=>
+413
+method =>
+Juzgado familiar
+)
+array(
+status=>
+414
+method =>
+Oic en la secretaria de cultura
+)
+array(
+status=>
+415
+method =>
+Birmex
+)
+array(
+status=>
+416
+method =>
+Sindicato mexicano de electricistas
+)
+array(
+status=>
+417
+method =>
+Tribunal electoral del poder judicial de la federación
+)
+array(
+status=>
+418
+method =>
+Secretaria de hacienda del Estado de chihuahua
+)
+array(
+status=>
+419
+method =>
+Secretaria de hacienda y crédito público
+)
+array(
+status=>
+420
+method =>
+Bancomext
+)
+array(
+status=>
+421
+method =>
+Grupo aeroportuario de grupo aeroportuario de la ciudad de México
+)
+array(
+status=>
+422
+method =>
+Oic invi
+)
+array(
+status=>
+423
+method =>
+Instituto nacional de la vivienda
+)
+array(
+status=>
+424
+method =>
+subdirección general de pediatría
+)
+array(
+status=>
+425
+method =>
+Secretaria secretaría de salud.
+)
+array(
+status=>
+426
+method =>
+Comisión de conciliación y arbitraje médico del Estado de México
+)
+array(
+status=>
+427
+method =>
+Corporativo hospital satélite
+)
+array(
+status=>
+428
+method =>
+Hospital español
+)
+array(
+status=>
+429
+method =>
+Imss guarderia
+)
+array(
+status=>
+430
+method =>
+procuraduría del Estado
+)
+array(
+status=>
+431
+method =>
+Hospital regional no.1 imss
+)
+array(
+status=>
+432
+method =>
+Fiscalia general de justicia cdmx
+)
+array(
+status=>
+433
+method =>
+Oic archivo general de la nación
+)
+array(
+status=>
+434
+method =>
+Hospital Ángeles lomas
+)
+array(
+status=>
+435
+method =>
+Fiscalia
+)
+array(
+status=>
+436
+method =>
+Hospital pemex
+)
+array(
+status=>
+437
+method =>
+Órgano interno de control en capufe
+)
+array(
+status=>
+438
+method =>
+fiscalía especializada de homicidios del valle de México con sede en cuautitlán
+)
+array(
+status=>
+439
+method =>
+Hospital sanatorio durango
+)
+array(
+status=>
+440
+method =>
+Hospital torre medica del valle
+)
+array(
+status=>
+441
+method =>
+Hospital angeles acoxpa
+)
+array(
+status=>
+442
+method =>
+Comisión estatal de Derechos Humanos
+)
+array(
+status=>
+443
+method =>
+Issemym hospital regional zumpango
+)
+array(
+status=>
+444
+method =>
+Hospital Ángeles lindavista
+)
+array(
+status=>
+445
+method =>
+Instituto nacional de ciencias médicas y nutrición salvador zubiran
+)
+array(
+status=>
+446
+method =>
+Juzgado séptimo de lo civil en las cdmx
+)
+array(
+status=>
+447
+method =>
+Notaria pública no. 08
+)
+array(
+status=>
+448
+method =>
+Oic secretaría de salud
+)
+array(
+status=>
+449
+method =>
+Municipio san pedro garza garcía, nuevo león
+)
+array(
+status=>
+450
+method =>
+fiscalía general de justicia de edo. Mex.
+)
+array(
+status=>
+451
+method =>
+Secretaria de bienestar
+)
+array(
+status=>
+452
+method =>
+Secretaria de bienestar social
+)
+array(
+status=>
+453
+method =>
+Servicio de administración tributaria
+)
+array(
+status=>
+454
+method =>
+Sistema de aguas de la ciudad de México
+)
+array(
+status=>
+455
+method =>
+Sistema de aguas de la ciudad de México
+)
+array(
+status=>
+456
+method =>
+Ine
+)
+array(
+status=>
+457
+method =>
+Hospital general de México
+)
+array(
+status=>
+458
+method =>
+Oic instituto nacional de cancerología
+)
+array(
+status=>
+459
+method =>
+Swiss hospital s.a.p.i. De c.v.
+)
+array(
+status=>
+460
+method =>
+asociación medica del centro medico abc, a.c.
+)
+array(
+status=>
+461
+method =>
+Hospital abc, santa fe
+)
+array(
+status=>
+462
+method =>
+Sanatorio durango
+)
+array(
+status=>
+463
+method =>
+mediación
+)
+array(
+status=>
+464
+method =>
+Banco del bienestar, sociedad nacional de crédito, institucion de banca de desarrollo
+)
+array(
+status=>
+465
+method =>
+Se desconoce
+)
+array(
+status=>
+466
+method =>
+Ángeles del pedregal
+)
+array(
+status=>
+467
+method =>
+Hospital Ángeles metropolitano
+)
+array(
+status=>
+468
+method =>
+Star medica juárez
+)
+array(
+status=>
+469
+method =>
+Secretaria de la función pública
+)
+array(
+status=>
+470
+method =>
+niño de rivera y asociados sc
+)
+array(
+status=>
+471
+method =>
+Ministerio público puebla
+)
+array(
+status=>
+472
+method =>
+Oic telecomm
+)
+array(
+status=>
+473
+method =>
+Fiscalia orientadora de la unidad de atención temprana del décimo primer Distrito judicial con sede en xalapa, veracruz
+)
+array(
+status=>
+474
+method =>
+Oaxaca site management organization (osmo)
+)
+array(
+status=>
+475
+method =>
+Oic Comisión reguladora de energía
+)
+array(
+status=>
+476
+method =>
+Comisión reguladora de energía
+)
+array(
+status=>
+477
+method =>
+asociación de investigación pediátrica y adultos (ainpad).
+)
+array(
+status=>
+478
+method =>
+asociación de investigación pediátrica y adultos (ainpad)
+)
+array(
+status=>
+479
+method =>
+Hospital san angel inn sur
+)
+array(
+status=>
+480
+method =>
+Hospital Ángeles del pedregal
+)
+array(
+status=>
+481
+method =>
+Hospital Ángeles interlomas
+)
+array(
+status=>
+482
+method =>
+Hospital Ángeles clínica londres
+)
+array(
+status=>
+483
+method =>
+Hospital san Ángel inn universidad
+)
+array(
+status=>
+484
+method =>
+Hospital cami
+)
+array(
+status=>
+485
+method =>
+Comisión nacional de Derechos Humanos
+)
+array(
+status=>
+486
+method =>
+Hospital regional de alta especialidad de zumpango
+)
+array(
+status=>
+487
+method =>
+Sindicato nacional de trabajadores del seguro social
+)
+array(
+status=>
+488
+method =>
+fiscalía especializada en combate a la corrupción
+)
+array(
+status=>
+489
+method =>
+Comisión nacional bancaria y de valores
+)
+array(
+status=>
+490
+method =>
+Oic servicios aeroportuarios de la cdmx
+)
+array(
+status=>
+491
+method =>
+Aeropuerto internacional de la cdmx
+)
+array(
+status=>
+492
+method =>
+fiscalía regional tlalnepantla
+)
+array(
+status=>
+493
+method =>
+Imss unidad de gineco-pediatria no. 3a
+)
+array(
+status=>
+494
+method =>
+asociación medica del centro medico abc, a.c
+)
+array(
+status=>
+495
+method =>
+fiscalía de investigación en benito juárez
+)
+array(
+status=>
+496
+method =>
+Sanatorio san francisco
+)
+array(
+status=>
+497
+method =>
+Hospital berlin
+)
+array(
+status=>
+498
+method =>
+particular
+)
+array(
+status=>
+499
+method =>
+fiscalía general de justicia
+)
+array(
+status=>
+500
+method =>
+Centro médico coyoacán
+)
+array(
+status=>
+501
+method =>
+contraloría interna en león guanajuato
+)
+array(
+status=>
+502
+method =>
+Sociedad hipotecaria Federal, s.n.c
+)
+array(
+status=>
+503
+method =>
+Juzgado 72 civil de la ciudad de México
+)
+array(
+status=>
+504
+method =>
+Hospital Ángeles México
+)
+array(
+status=>
+505
+method =>
+Hospital mac puebla,
+)
+array(
+status=>
+506
+method =>
+Hospital vivo jardines bicentenario
+)
+array(
+status=>
+507
+method =>
+Jdo. 24° de lo civil cdmx
+)
+array(
+status=>
+508
+method =>
+Infotec
+)
+array(
+status=>
+509
+method =>
+fiscalía de protección a la mujer del Estado de chiapas
+)
+array(
+status=>
+510
+method =>
+Juzgado 7° de lo civil
+)
+array(
+status=>
+511
+method =>
+fiscalía del Estado de nuevo león
+)
+array(
+status=>
+512
+method =>
+Ministerio público (juzgados de control)
+)
+array(
+status=>
+513
+method =>
+Instituto de seguridad social del Estado de México y municipios
+)
+array(
+status=>
+514
+method =>
+Juzgado 72° de lo civil cdmx
+)
+array(
+status=>
+515
+method =>
+Juzgado 72 de lo civil cdmx
+)
+array(
+status=>
+516
+method =>
+Hospital Ángeles de querétaro
+)
+array(
+status=>
+517
+method =>
+Hospital Ángeles morelia
+)
+array(
+status=>
+518
+method =>
+Oic banobras
+)
+array(
+status=>
+519
+method =>
+Banco nacional de obras y servicios públicos, s.n.c
+)
+array(
+status=>
+520
+method =>
+Star médica
+)
+array(
+status=>
+521
+method =>
+Juzgado quinto civil de primera instancia del Distrito judicial de tlalnepantla edo. Mex.
+)
+array(
+status=>
+522
+method =>
+Hospital Ángeles pedregal
+)
+array(
+status=>
+523
+method =>
+Hospital general de zona no. 8
+)
+array(
+status=>
+524
+method =>
+Juzgado 45° de lo civil cdmx
+)
+array(
+status=>
+525
+method =>
+Hospital hgm de coyoacan
+)
+array(
+status=>
+526
+method =>
+fiscalía cuauhtémoc
+)
+array(
+status=>
+527
+method =>
+Centros euroestetica
+)
+array(
+status=>
+528
+method =>
+clínica de corta estancia servicura cuauhtémoc
+)
+array(
+status=>
+529
+method =>
+cirugía de corta instancia polanco
+)
+array(
+status=>
+530
+method =>
+Juzgado séptimo civil de primera instancia en toluca
+)
+array(
+status=>
+531
+method =>
+Centro médico de toluca, s.a. De c.v.
+)
+array(
+status=>
+532
+method =>
+clínica enlace
+)
+array(
+status=>
+533
+method =>
+Hospital hng coyoacán
+)
+array(
+status=>
+534
+method =>
+Oic Órgano regulador de energía
+)
+array(
+status=>
+535
+method =>
+Órgano regulador de energía
+)
+array(
+status=>
+536
+method =>
+Centro médico dalinde
+)
+array(
+status=>
+537
+method =>
+Hospital general de zona 53
+)
+array(
+status=>
+538
+method =>
+Juzgado 25 de lo civil en la cdmx
+)
+array(
+status=>
+539
+method =>
+Centro médico quirúrgico escandon
+)
+array(
+status=>
+540
+method =>
+Juzgado 15° de lo civil
+)
+array(
+status=>
+541
+method =>
+Hospital de especialidades mig
+)
+array(
+status=>
+542
+method =>
+Auditoria superior del Estado de nuevo león
+)
+array(
+status=>
+543
+method =>
+Hospital human care
+)
+array(
+status=>
+544
+method =>
+Fgj cdmx benito juárez
+)
+array(
+status=>
+545
+method =>
+Ccamem
+)
+array(
+status=>
+546
+method =>
+clínica mas bonita
+)
+array(
+status=>
+547
+method =>
+secretaría de salud de hidalgo
+)
+array(
+status=>
+548
+method =>
+Oic conamed
+)
+array(
+status=>
+549
+method =>
+médica integral coyoacán
+)
+array(
+status=>
+550
+method =>
+clínica de especialidades ctm virchow, s.c.
+)
+array(
+status=>
+551
+method =>
+Se desconoce
+)
+array(
+status=>
+552
+method =>
+Notaria 238 cdmx
+)
+array(
+status=>
+553
+method =>
+Hospital Ángeles mocel
+)
+array(
+status=>
+554
+method =>
+Juicio mercantil
+)
+array(
+status=>
+555
+method =>
+Hospital star medica luna parc
+)
+array(
+status=>
+556
+method =>
+clínica quirófano polanco
+)
+array(
+status=>
+557
+method =>
+secretaría de salud // hospital Ángeles mocel
+)
+array(
+status=>
+558
+method =>
+Conaliteg
+)
+array(
+status=>
+559
+method =>
+Inadem
+)
+array(
+status=>
+560
+method =>
+Fgr morelos
+)
+array(
+status=>
+561
+method =>
+Imss hospital general regional i
+)
+array(
+status=>
+562
+method =>
+Hospital de la mujer
+)
+array(
+status=>
+563
+method =>
+fiscalía regional de tejupilco
+)
+array(
+status=>
+564
+method =>
+100000
+)
+array(
+status=>
+565
+method =>
+investigación inicial (detenido)
+)
+array(
+status=>
+566
+method =>
+Estimada lic. Cinthia berenice hern??Ndez ram??Rez asunto: informe preliminar reporte: gmxc210011873. Buen d??A, agradezco el n??Mero de siniestro, con relaci??N al reporte gmxc210011873, correspondiente a la moral contratante infracom outsourcing s.a. De c.v., y asegurados emiliano regules gu
+)
+array(
+status=>
+567
+method =>
+clínica de corta instancia
+)
+array(
+status=>
+568
+method =>
+Hospital mac
+)
+array(
+status=>
+569
+method =>
+Oic hospital general dr. Manuel Gea González
+)
+array(
+status=>
+570
+method =>
+Juzgado 25° de lo civil cdmx
+)
+array(
+status=>
+571
+method =>
+fiscalía de procesos en juzgados Penales norte
+)
+array(
+status=>
+572
+method =>
+Hospital general de numero 24 imss
+)
+array(
+status=>
+573
+method =>
+secretaría de salud/ hospital mac
+)
+array(
+status=>
+574
+method =>
+Hospital regional 25 del imss
+)
+array(
+status=>
+575
+method =>
+Oic conacyt
+)
+array(
+status=>
+576
+method =>
+Pendiente
+)
+array(
+status=>
+577
+method =>
+Hospital san Ángel inn patriotismo
+)
+array(
+status=>
+578
+method =>
+Hospital central de especialidades medicas de la paz
+)
+array(
+status=>
+579
+method =>
+Área de quejas del Órgano interno de control en el instituto nacional de cardiología
+)
+array(
+status=>
+580
+method =>
+Centro materno infantil privado s.a de c.v.
+)
+array(
+status=>
+581
+method =>
+Hospital star médica
+)
+array(
+status=>
+582
+method =>
+fiscalía en veracruz
+)
+array(
+status=>
+583
+method =>
+Comisión de Derechos Humanos de Estado de México
+)
+array(
+status=>
+584
+method =>
+Instituto de salud del Estado de México
+)
+array(
+status=>
+585
+method =>
+Juzgado 64° de lo civil
+)
+array(
+status=>
+586
+method =>
+Notario 14 cdmx
+)
+array(
+status=>
+587
+method =>
+clínica servicura viaducto
+)
+array(
+status=>
+588
+method =>
+Juzgado cuadragésimo cuarto de lo civil cdmx
+)
+array(
+status=>
+589
+method =>
+Ministerio público de mediación
+)
+array(
+status=>
+590
+method =>
+clínica elite
+)
+array(
+status=>
+591
+method =>
+Hospital infantil privado
+)
+array(
+status=>
+592
+method =>
+Hospital san Ángel inn del sur
+)
+array(
+status=>
+593
+method =>
+Fucam, a.c.
+)
+array(
+status=>
+594
+method =>
+clínica topmedical polanco
+)
+array(
+status=>
+595
+method =>
+Instituto nacional de medicina genómica
+)
+array(
+status=>
+596
+method =>
+fiscalía de investigación territorial en benito juárez de la fiscalía general de justicia de la ciudad de México
+)
+array(
+status=>
+597
+method =>
+Fgr
+)
+array(
+status=>
+598
+method =>
+Cojummayp
+)
+array(
+status=>
+599
+method =>
+fiscalía general del edo. Mex.
+)
+array(
+status=>
+600
+method =>
+Hospital bicentenario de la independencia
+)
+array(
+status=>
+601
+method =>
+Juzgado 24° de lo civil cdmx
+)
+array(
+status=>
+602
+method =>
+clínica londres
+)
+array(
+status=>
+603
+method =>
+Juzgado 42° de lo civil cdmx
+)
+array(
+status=>
+604
+method =>
+Operadora de hospitales Ángeles
+)
+array(
+status=>
+605
+method =>
+Juzgado 4° de lo civil cdmx
+)
+array(
+status=>
+606
+method =>
+Hospital guadalupe tepeyac
+)
+array(
+status=>
+607
+method =>
+Consejo de promoción turística de México
+)
+array(
+status=>
+608
+method =>
+Parparticular
+)
+array(
+status=>
+609
+method =>
+fiscalía regional en naucalpan
+)
+array(
+status=>
+610
+method =>
+Hospital star medica de lomas verdes
+)
+array(
+status=>
+611
+method =>
+Hospital general zona 30
+)
+array(
+status=>
+612
+method =>
+Instituto del fondo nacional para el consumo de los trabajadores
+)
+array(
+status=>
+613
+method =>
+Hospital santa rosa
+)
+array(
+status=>
+614
+method =>
+Oic función pública
+)
+array(
+status=>
+615
+method =>
+función pública
+)
+array(
+status=>
+616
+method =>
+Juzgado 69 de lo civil
+)
+array(
+status=>
+617
+method =>
+Operadora de hospitales Ángeles suc. México
+)
+array(
+status=>
+618
+method =>
+Comisión de Derechos Humanos 2da visitaduria gral.
+)
+array(
+status=>
+619
+method =>
+Hospital issstep de puebla
+)
+array(
+status=>
+620
+method =>
+Ministerio público atizapan de zaragoza
+)
+array(
+status=>
+621
+method =>
+Hospital kiromedic surgery & fertility
+)
+array(
+status=>
+622
+method =>
+Comisión de Derechos Humanos edo. Mex.
+)
+array(
+status=>
+623
+method =>
+Juzgado 36 de lo civil
+)
+array(
+status=>
+624
+method =>
+Ministerio público.
+)
+array(
+status=>
+625
+method =>
+Colegio de post-graduados
+)
+array(
+status=>
+626
+method =>
+Star medica luna park
+)
+array(
+status=>
+627
+method =>
+clínica laser mental
+)
+array(
+status=>
+628
+method =>
+Fgj cdmx magdalena contreras
+)
+array(
+status=>
+629
+method =>
+asesoría legal
+)
+array(
+status=>
+630
+method =>
+secretaría de salud. Hospital general dr. Manuel Gea González
+)
+array(
+status=>
+631
+method =>
+Tribunal de justicia administrativa del Estado de nuevo león
+)
+array(
+status=>
+632
+method =>
+dirección de adquisiciones de la secretaría de administración del municipio de monterrey
+)
+array(
+status=>
+633
+method =>
+fiscalía gam-3
+)
+array(
+status=>
+634
+method =>
+Cennm
+)
+array(
+status=>
+635
+method =>
+Hospital christus muguerza
+)
+array(
+status=>
+636
+method =>
+Órgano especializado en región centro norte
+)
+array(
+status=>
+637
+method =>
+fiscalía en benito juárez
+)
+array(
+status=>
+638
+method =>
+Torre médica, hospital del valle
+)
+array(
+status=>
+639
+method =>
+dirección jurídica de contraloría y transparencia
+)
+array(
+status=>
+640
+method =>
+Oic Comisión nacional de libros de texto gratuitos
+)
+array(
+status=>
+641
+method =>
+Comisión nacional de libros de texto gratuitos
+)
+array(
+status=>
+642
+method =>
+Oic Comisión nacional de libros de texto
+)
+array(
+status=>
+643
+method =>
+Comisión nacional de libros de texto
+)
+array(
+status=>
+644
+method =>
+Comisión Federal de competencia económica
+)
+array(
+status=>
+645
+method =>
+jurídico del instituto
+)
+array(
+status=>
+646
+method =>
+Instituto para la protección al ahorro bancario
+)
+array(
+status=>
+647
+method =>
+Juzgado 65° de lo civil cdmx
+)
+array(
+status=>
+648
+method =>
+Hospital tehuantepec
+)
+array(
+status=>
+649
+method =>
+Hospital santa coleta
+)
+array(
+status=>
+650
+method =>
+clínica "sonríe" ortodoncia
+)
+array(
+status=>
+651
+method =>
+Denuncia
+)
+array(
+status=>
+652
+method =>
+Área de quejas comimsa
+)
+array(
+status=>
+653
+method =>
+Comimsa
+)
+array(
+status=>
+654
+method =>
+Juzgado 39° de lo civil cdmx
+)
+array(
+status=>
+655
+method =>
+Juzgado 21° de lo civil cdmx
+)
+array(
+status=>
+656
+method =>
+Demanda civil jdo. 22 cdmx
+)
+array(
+status=>
+657
+method =>
+Hospital serna
+)
+array(
+status=>
+658
+method =>
+Hospital Ángeles santa mónica
+)
+array(
+status=>
+659
+method =>
+Hospital general manuel Gea gonzalez
+)
+array(
+status=>
+660
+method =>
+Hospital de ginecología y pediatría no. 48 imss
+)
+array(
+status=>
+661
+method =>
+Órgano interno
+)
+array(
+status=>
+662
+method =>
+Hospital general de zona 2a. Imss
+)
+array(
+status=>
+663
+method =>
+Juzgado 57° de los civil en cdmx
+)
+array(
+status=>
+664
+method =>
+Juzgado 57° de lo civil cdmx
+)
+

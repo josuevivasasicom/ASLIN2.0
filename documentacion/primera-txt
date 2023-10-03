@@ -1,0 +1,171 @@
+#first comment changelayouts
+cmaLayout
+layout_menu.php: Se encuentra el menu con sus respectivos roles para mostrar a cada usuario
+ligas que se encuentra en el y vistas
+./?view=index
+./?view=siniestro/nuevo
+.?view=siniestro/verTodos
+./?view=config/areas
+./?view=config/usuarios
+./?view=config/parametros
+./?view=config/libretadirecciones
+javascript:uploadCSV()  Import Siniestros  
+    En el mismos se encuentra la funcion con  swal fire
+javascript:uploadCSVBitacoras() Import Bitácotas
+
+
+/*+***********************************/
+carpeta controller  
+File
+Action.php
+Corresponde a la validacion de las vistas
+clase Action
+metodos: load isValid error y ejecute
+
+File
+Core.php
+obtiene las configuraciones, muestra y carga los contenidos
+clase Core
+metodos:
+getKeyPass
+
+getPowerLevel: obtiene el rol mediante la session(admin, jefe, abogado)
+fecha_ed: mes seleccionado
+getMicrotime
+getTimeStamp
+getTimeNow
+getTimeNowString
+sendVarToJs
+sendStringToJs
+redir
+preprint
+seleccionaUnoParaComparar
+insertHistorico
+insertHistoricoSiniestros
+getAreaNombre
+camposEditar
+
+File
+Correo.php
+Correo
+sendMail_disabled
+sendMail
+sendMail_varios_abogados
+sendMailFiles
+send_notify_new_id
+send_recovery_password
+
+/*+***********************************/
+carpeta model
+
+Se encuentran los modelos de servicios json
+
+file
+Config.php
+datosSelectFilesUoload, countProvenientesTodos
+getAllProvenientes
+countInstitucionesTodos
+getAllInstituciones
+countAutoridadesTodos
+getAllAutoridades
+countEstatusTodos
+getAllEstatus
+countCalificacionTodos
+getAllCalificacion
+
+
+File
+Siniestros.php
+getNumPolizaValores($timerst){ //?busca los ids asignados a polizas y los amarra con el timerst o folio ID del siniestro por siniestro,
+
+File
+UserData.php
+registroUsuario, registroUsuario, userRecoveryPasswordChange pass_check, pass_hash
+
+
+
+
+/*+***********************************/
+Comina dsde index.php
+
+$lb = new Lb();
+$lb->start();
+
+Carpeta
+core/controller
+
+Lb.php
+class Lb {
+
+	public function Lb(){
+	}
+
+	public function start(){
+		include "core/app/autoload.php";
+		include "core/app/init.php";
+	}
+
+}
+
+++++++++++++++++++++body BODY CSS JS ******************+     +++++++++++++++++++++++++++++++++++
+core/app/init.php
+LoadLayout::_loadLayout("index");
+
+Este es el html index que vienen las librerias css js
+core/app/layouts/cmaLayout/layoutUser.php
+
+function buscarAsegurado()
+?view=siniestro/resultadosBusqueda&searchAsegurado + asegurado
+++dirige a resultadosBusqueda-view se le agrega el view
+
+function buscarid()
+"?action=searchID&search=" + siniestro
+
+function buscarNS() 
+?action=searchID&searchNS=
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+lOS USUARIOS SINIESTRO SE ENCUENTRAN EN SINIESTROSTODOS-AJAX.PHP
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+core/app/view/admin/siniestro/nuevo-view.php
+
+donde se almacenan los sinientroos de admin
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+model/siniestros.php
+getTodosSiniestros(
+
+
+view/jefe/siniestro/verTodos-view.php
+##verTodos-view.php
+
+
+
+/************* configuacion de parametros view **************+*****/
+
+parametros-view.php
+
+obtiene la tabla desde ?action=jtable/tablaInstituciones.ajax&jtable=jtable
+
+y edita desde la funcion editInst()
+
+$.ajax({
+                url: "./?action=config/param&modo=institucion&edit=inst",
+
+/************* Correo **************+*****/
+
+core/app/mail/enviar-action.php  Correo::send_format($req));
+core/app/controller/correo.php
+
+/************* PDFS **************+*****/
+
+CORE/APP/ACTION/PDF
+viewFileF-action.php
+Esta vista apunta a un redireccionamiento A LA CARPETA PDF RAIZ  pdf
+
+./PDF
+viewFileF-direct.php
+
+dODE SE CONTRUYEN TODOS LOS PDF PRELIMINARES O DE CANCELACION ETC. ES EN LA CARPETA PDF/FORMATO

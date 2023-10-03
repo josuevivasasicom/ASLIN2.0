@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "imask": "^6.4.3",
+    "tippy.js": "^6.3.7"
+  }
+}
