@@ -144,19 +144,19 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <!-- CSS Files -->
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/css/bootstrap.min.css?v=<?php echo date('YdmHis')?>" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <link href="./assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <link href="./assets/demo/demo.css?v=<?php echo date('YdmHis')?>" rel="stylesheet" />
+  <!-- <link href="./assets/css/paper-dashboard.css?v=<?php // echo date('YdmHis')?>" rel="stylesheet" /> -->
 
   <!-- importante datatime -->
-  <link rel="stylesheet" href="./assets/css/bootstrap-datetimepicker.min.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap-datetimepicker.min.css?v=<?php echo date('YdmHis')?>">
 
-  <link href="./assets/js/plugins/jtable/themes/metro/brown/jtable.min.css" rel="stylesheet">
-  <link href="./assets/js/plugins/jtable/themes/metro/brown/jtable-child.css" rel="stylesheet">
+  <link href="./assets/js/plugins/jtable/themes/metro/brown/jtable.min.css?v=<?php echo date('YdmHis')?>" rel="stylesheet">
+  <link href="./assets/js/plugins/jtable/themes/metro/brown/jtable-child.css?v=<?php echo date('YdmHis')?>" rel="stylesheet">
 
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
 
 
 
@@ -167,7 +167,7 @@
   <!-- <script src="https://cdn.ckeditor.com/4.17.1/full/ckeditor.js"></script> -->
   <!-- <script src="https://cdn.ckeditor.com/ckeditor5/33.0.0/classic/ckeditor.js"></script> -->
   <!-- select2.JS CSS -->
-  <link href="./assets/js/plugins/select2/select2-min.css" rel="stylesheet" />
+  <link href="./assets/js/plugins/select2/select2-min.css?v=<?php echo date('YdmHis')?>" rel="stylesheet" />
   <!--datetimepicker CSS -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script> <!-- para edscargar excel -->
@@ -227,41 +227,41 @@
 
 
 
-  <script src="./assets/js/core/bootstrap.min.js"></script>
-  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="./assets/js/core/bootstrap.min.js?v=<?php echo date('YdmHis')?>"></script>
+  <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js?v=<?php echo date('YdmHis')?>"></script>
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Chart JS -->
-  <script src="./assets/js/plugins/chartjs.min.js"></script>
+  <script src="./assets/js/plugins/chartjs.min.js?v=<?php echo date('YdmHis')?>"></script>
   <!--  Notifications Plugin    -->
-  <script src="./assets/js/plugins/bootstrap-notify.js"></script>
+  <script src="./assets/js/plugins/bootstrap-notify.js?v=<?php echo date('YdmHis')?>"></script>
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="./assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="./assets/js/paper-dashboard.min.js?v=<?php echo date('YdmHis')?>" type="text/javascript"></script>
   <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 
   <!--datetimepicker JS -->
   <!-- Formato de hora -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+  <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js?v=<?php echo date('YdmHis')?>"></script>
 
 
 
   <!-- select2 JS -->
-  <script src="./assets/js/plugins/select2/select2.min.js"></script>
+  <script src="./assets/js/plugins/select2/select2.min.js?v=<?php echo date('YdmHis')?>"></script>
   
 
   <!-- jtable JS-->
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
-  <script src="./assets/js/plugins/jtable/jquery.jtable.min.js"></script>
-  <script src="./assets/js/plugins/jtable/localization/jquery.jtable.es.js"></script>
+  <script src="./assets/js/plugins/jtable/jquery.jtable.min.js?v=<?php echo date('YdmHis')?>"></script>
+  <script src="./assets/js/plugins/jtable/localization/jquery.jtable.es.js?v=<?php echo date('YdmHis')?>"></script>
 
   <!-- swet alert -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <!-- charts o barras graficas-->
-  <script src="./assets/js/plugins/chartjs.min.js"></script>
+  <script src="./assets/js/plugins/chartjs.min.js?v=<?php echo date('YdmHis')?>"></script>
 
-  <script src="./assets/demo/demo.js"></script>
+  <script src="./assets/demo/demo.js?v=<?php echo date('YdmHis')?>"></script>
 
 
   <script defer src="https://cdn.jsdelivr.net/npm/spectrum-colorpicker2/dist/spectrum.min.js"></script>
@@ -277,8 +277,8 @@
   <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEAI6KQE&placement=imaskjsorg" id="_carbonads_js"></script> -->
   <script defer src="https://unpkg.com/imask"></script>
 
-  <script language="javascript" type="text/javascript" src="./assets/js/plugins/leoJsonExcel/filesaver.js"></script> <!-- para edscargar excel -->
-  <script language="javascript" type="text/javascript" src="./assets/js/plugins/leoJsonExcel/json-excel.js"></script> <!-- para edscargar excel -->
+  <script language="javascript" type="text/javascript" src="./assets/js/plugins/leoJsonExcel/filesaver.js?v=<?php echo date('YdmHis')?>"></script> <!-- para edscargar excel -->
+  <script language="javascript" type="text/javascript" src="./assets/js/plugins/leoJsonExcel/json-excel.js?v=<?php echo date('YdmHis')?>"></script> <!-- para edscargar excel -->
 
 
   <script>

@@ -1,5 +1,5 @@
 <page>
-    <draw style="margin: auto; width:180mm; height:240mm; background: #444444; border: solid 0.5mm #777777;">
+    <draw style="margin: auto; width:180mm; height:240mm; background: #444444; border: solid 0.5mm var(--color-main);">
         <g transform="translate(90mm,120mm) scale(1.8) translate(-250,-245)">
             <path d="M 157.219 412.757 C 158.128 465.467 355.334 465.467 354.425 413.666 C 353.516 358.23 159.036 357.322 157.219 412.757 z " id="path749" sodipodi:nodetypes="ccc" style="fill:#623e35;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-width:3.75;stroke-linejoin:bevel;stroke-linecap:butt;fill-opacity:1;stroke-dasharray:none;"/>
             <path d="M 212.655 306.43 L 211.746 413.665 C 219.694 425.479 288.517 427.298 299.898 412.757 L 299.898 305.521 C 289.901 320.97 232.647 326.423 212.655 306.43 z " id="path748" sodipodi:nodetypes="ccccc" style="fill:#623e35;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-width:4.76806;stroke-linejoin:bevel;stroke-linecap:butt;fill-opacity:1;stroke-dasharray:none;" transform="matrix(0.618557,0.000000,0.000000,1.000000,98.94439,-0.908813)"/>

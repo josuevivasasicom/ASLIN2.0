@@ -52,7 +52,7 @@ header("Pragma: no-cache")
                         toolbar: {
                             items: [{
                                 tooltip: 'Exportar a Excel',
-                                icon: 'https://www.jtable.org/Content/images/Misc/excel.png',
+                                icon: 'https://asicomgraphics.mx/demos/dxlegal/descargar.png',
                                 text: 'Excel',
                                 click: function() {
                                     downloadAsExcel(res.Records, 'usuarios_cma_');
@@ -78,7 +78,7 @@ header("Pragma: no-cache")
                                     //Create an image that will be used to open child table
                                     // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                                     var $img = $(
-                                         '<center><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></center>'
+                                         '<center><span class="jtable-page-number-first jtable-page-number-disabled"><img class="nc-icon nc-layout-11" style="font-size: 1.5em;" src="./assets/img/permiso.png"></span></center>'
                                          //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                                         );
 

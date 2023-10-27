@@ -3,17 +3,17 @@ class Database {
 	public static $db;
 	public static $con;
 	function Database(){
-		$adic = "lalo";
+		$adic = "josue";
 		switch ($_SERVER["HTTP_HOST"]){
 			
 			case 'localhost:8080':
-				$this->user="root";$this->pass="rosa001206";$this->host="localhost:3306";$this->ddbb="u934929740_cma";
+				$this->user="root";$this->pass="";$this->host="localhost:3306";$this->ddbb="u934929740_cma";
 				break;
 			case 'localhost':
-				if ($adic == "lalo"){		
+				if ($adic == "josue"){		
 					$this->user="root";$this->pass="";$this->host="localhost";$this->ddbb="u934929740_cma";
 				}else{
-					$this->user="alternativo";$this->pass="";$this->host="localhost";$this->ddbb="u157777947_alternativa";
+					$this->user="root";$this->pass="";$this->host="localhost";$this->ddbb="u934929740_cma";
 				}
 				
 				
@@ -25,20 +25,20 @@ class Database {
 	}
 
 	function connect(){
-		$adic = "lalo";
+		$adic = "josue";
 		switch ($_SERVER["HTTP_HOST"]){
 			
 			case 'localhost:8080':
 				////$this->user="alternativo";$this->pass="2r3ckl24n2l";$this->host="localhost";$this->ddbb="u157777947_alternativa";
-				$con = new mysqli("localhost:3306","root","rosa001206","u934929740_cma");
+				$con = new mysqli("localhost:3306","root","","u934929740_cma");
 				// var_dump($con);
 				// die();
 				break;
 				case 'localhost':
-					if ($adic == "lalo"){		
+					if ($adic == "josue"){
 						$con = new mysqli("localhost","root","","u934929740_cma");
 					}else{
-						$con = new mysqli("localhost","root","rosa001206","u934929740_cma");
+						$con = new mysqli("localhost","root","","u934929740_cma");
 					}
 					$con -> set_charset("utf8");
 				

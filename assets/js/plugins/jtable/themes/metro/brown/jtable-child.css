@@ -409,18 +409,18 @@ div.jtable-main-container .jtable-main-container>div.jtable-title div.jtable-too
 }
 
 div.jtable-main-container .jtable-main-container>div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover {
-    background-color: #cda348;
+    background-color: var(--color-main);
     padding-bottom: 6px;
 }
 
 div.jtable-main-container .jtable-main-container>table.jtable {
-    border: 1px solid #b28f43;
+    border: 1px solid var(--color-main);
     border-collapse: collapse;
     border-spacing: 0;
 }
 
 div.jtable-main-container .jtable-main-container>table.jtable>thead {
-    background-color: #b28f43;
+    background-color: var(--color-main);
 }
 
 div.jtable-main-container .jtable-main-container>table.jtable>thead th {
@@ -521,11 +521,11 @@ div.jtable-main-container .jtable-main-container>table.jtable>tbody>tr.jtable-ch
 }
 
 div.jtable-main-container .jtable-main-container>div.jtable-bottom-panel {
-    background-color: #cda348;
+    background-color: var(--color-main);
     color: #fff;
     min-height: 22.900000000000002px;
     font-size: 13px;
-    border: 1px solid #b28f43;
+    border: 1px solid var(--color-main);
     border-top: none;
 }
 
@@ -540,7 +540,7 @@ div.jtable-main-container .jtable-main-container>div.jtable-bottom-panel .jtable
 div.jtable-main-container .jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,
 div.jtable-main-container .jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,
 div.jtable-main-container .jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active {
-    background-color: #b28f43;
+    background-color: var(--color-gray);
     margin: 1px;
     padding: 2px 5px;
     color: #fff;
@@ -594,6 +594,6 @@ div.jtable-busy-message {
     padding: 5px 5px 5px 58px;
     color: #fff;
     background: url('../../metro/darkorange/loading.gif') no-repeat;
-    background-color: #cda348;
+    background-color: var(--color-main);
     background-position: 8px;
 }

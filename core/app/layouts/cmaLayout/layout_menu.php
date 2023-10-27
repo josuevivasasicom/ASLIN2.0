@@ -1,6 +1,11 @@
 <?php 
 //menu lateral
 ?>
+    <a href="#" class="logo-footer">
+        <div class="logo-image-big">
+        <img src="./assets/img/logo_footer.png">
+        </div>
+    </a>
 <div class="sidebar" data-color="black" data-active-color="danger">
     <div class="logo">
     <!-- <a href="#" class="simple-text logo-mini">
@@ -15,7 +20,7 @@
         <img src="./assets/img/logo_large_white.png">
         </div>
     </a>
-    </div>
+</div>
 
     
     <!-- menu -->
@@ -27,67 +32,67 @@
                 <ul class="nav">
                     <li index class="">
                     <a href="./?view=index">
-                        <i class="nc-icon nc-bank"></i>
+                        <i><img src="./assets/img/inicio/home.png"></img></i>
                         <p>Inicio</p>
                     </a>
                     </li>
                     <li nuevo class="">
                     <a href="./?view=siniestro/nuevo">
-                        <i class="nc-icon nc-diamond"></i>
+                    <i><img src="./assets/img/inicio/nuevo.png"></img></i>
                         <p>Nuevo Siniestro</p>
                     </a>
                     </li>
                     <li siniestros class="">
                     <a href=".?view=siniestro/verTodos">
-                        <i class="nc-icon nc-bullet-list-67"></i>
+                    <i><img src="./assets/img/inicio/siniestro.png"></img></i>
                         <p>Siniestros</p>
                     </a>
                     </li>
 
                     <li areas class="">
                     <a href="./?view=config/areas">
-                        <i class="nc-icon  nc-tile-56"></i>
+                    <i><img src="./assets/img/inicio/areas.png"></img></i>
                         <p>Áreas</p>
                     </a>
                     </li>
                 
                     <li usuarios>
                     <a href="./?view=config/usuarios">
-                        <i class="nc-icon nc-badge"></i>
+                    <i><img src="./assets/img/inicio/usuarios.png"></img></i>
                         <p>Usuarios</p>
                     </a>
                     </li>
 
                     <li historico>
                     <a href="./?view=config/historico">
-                        <i class="nc-icon nc-paper"></i>
+                    <i><img src="./assets/img/inicio/historico.png"></img></i>
                         <p>Histórico</p>
                     </a>
                     </li>
                     
                     <li parametros>
                     <a href="./?view=config/parametros">
-                        <i class="nc-icon nc-settings-gear-65"></i>
+                    <i><img src="./assets/img/inicio/parametros.png"></img></i>
                         <p>Parámetros</p>
                     </a>
                     </li>
 
                     <li direcciones>
                     <a href="./?view=config/libretaDirecciones">
-                        <i class="nc-icon nc-settings-gear-65"></i>
+                    <i><img src="./assets/img/inicio/libreta.png"></img></i>
                         <p>libreta direcciones</p>
                     </a>
                     </li>
                     <li importSiniestros>
                     <a href="javascript:uploadCSV()">
-                        <i class="nc-icon nc-settings-gear-65"></i>
-                        <p>Import Siniestros</p>
+                    <i><img src="./assets/img/inicio/importars.png"></img></i>
+                        <p>Importar Siniestros</p>
                     </a>
                     </li>
                     <li importBitacoras>
                     <a href="javascript:uploadCSVBitacoras()">
-                        <i class="nc-icon nc-settings-gear-65"></i>
-                        <p>Import Bitácotas</p>
+                    <i><img src="./assets/img/inicio/bitacora.png"></img></i>
+                        <p>Importar Bitácotas</p>
                     </a>
                     </li>
                 </ul>
@@ -100,9 +105,9 @@
                                 else if (result.isDenied) 
                             */
                             Swal.fire({
-                            confirmButtonColor: '#988763',
-                            denyButtonColor: '#988763',
-                            cancelButtonColor: '#988763',
+                            confirmButtonColor: 'var(--color-blanco)',
+                            denyButtonColor: 'var(--color-blanco)',
+                            cancelButtonColor: 'var(--color-blanco)',
                             title: 'Selecciona archivo a importar',
                             input: 'file',
                             inputAttributes: {
@@ -152,9 +157,9 @@
                                 else if (result.isDenied) 
                             */
                             Swal.fire({
-                            confirmButtonColor: '#988763',
-                            denyButtonColor: '#988763',
-                            cancelButtonColor: '#988763',
+                            confirmButtonColor: 'var(--color-blanco)',
+                            denyButtonColor: 'var(--color-blanco)',
+                            cancelButtonColor: 'var(--color-blanco)',
                             title: 'Selecciona CSV de bitácoras a importar',
                             input: 'file',
                             inputAttributes: {

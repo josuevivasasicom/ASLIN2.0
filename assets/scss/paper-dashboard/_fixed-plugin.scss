@@ -55,7 +55,7 @@
     .dropdown-menu > .active > a,
     .dropdown-menu > .active > a:hover,
     .dropdown-menu > .active > a:focus{
-        color: #777777;
+        color: var(--color-main);
         text-align: center;
     }
 

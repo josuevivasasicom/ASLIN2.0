@@ -265,7 +265,7 @@ header("Content-type: text/html");
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                             );
 
@@ -352,7 +352,7 @@ header("Content-type: text/html");
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                             );
 
@@ -427,7 +427,7 @@ header("Content-type: text/html");
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                             );
 
@@ -501,7 +501,7 @@ header("Content-type: text/html");
                     display: function(estatus) {
                         //Create an image that will be used to open child table
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             );
 
                         //Open action button
@@ -573,7 +573,7 @@ header("Content-type: text/html");
                     display: function(estatus) {
                         //Create an image that will be used to open child table
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             );
 
                         //Open action button
@@ -645,7 +645,7 @@ header("Content-type: text/html");
                     display: function(TypeFile) {
                         //Create an image that will be used to open child table
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             );
 
                         //Open action button
@@ -759,9 +759,9 @@ header("Content-type: text/html");
                         <input id='idProv' value="`+prov.id+`" type="hidden" style="display:none">
                         `,
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'ID: '+prov.id,
         html: html_,
@@ -841,9 +841,9 @@ header("Content-type: text/html");
                         <input id='background' value="" class="swal2-input" placeholder="" style="display:none">
                         `,
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'Crear nuevo Prov.',
         html: html_,
@@ -898,9 +898,9 @@ header("Content-type: text/html");
                         <input type="text" id="etapa2"   value=""    class="swal2-input" placeholder="Etapa 2" style="text-transform: uppercase;width:90%;">
                         <input type="text" id="tipo"   value=""    class="swal2-input" placeholder="Tipo de documento" style="text-transform: uppercase;width:90%;">`;
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'Crear nueva Categoría.',
         html: html_,
@@ -969,9 +969,9 @@ header("Content-type: text/html");
                         <input type="hidden" id="id"   value="`+inst.id+`"    class="swal2-input" placeholder="id" style="text-transform: uppercase;width:90%;">`;
         html_ = html_ + selInput;
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'ID: '+inst.id,
         html: html_,
@@ -1040,9 +1040,9 @@ header("Content-type: text/html");
                         <input type="hidden" id="id"   value="`+autoridad.id+`"    class="swal2-input" placeholder="id" style="text-transform: uppercase;width:90%;">`;
         html_ = html_ + selInput;
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'ID: '+autoridad.id,
         html: html_,

@@ -719,9 +719,9 @@
                                 denyButtonText: `Ir a todos`,
                                 cancelButtonText: 'Crear Nuevo',
 
-                                confirmButtonColor: '#988763',
-                                denyButtonColor: '#988763',
-                                cancelButtonColor: '#988763',
+                                confirmButtonColor: 'var(--color-blanco)',
+                                denyButtonColor: 'var(--color-blanco)',
+                                cancelButtonColor: 'var(--color-blanco)',
 
                                 allowOutsideClick: false
                             }).then((result) => {
@@ -744,7 +744,7 @@
                                 text: 'Por favor intentalo nuevamente',
                                 confirmButtonText: 'OK',
                                 footer: 'Sentimos las molestias',
-                                confirmButtonColor: '#988763',
+                                confirmButtonColor: 'var(--color-blanco)',
                             })
                         }
                     }

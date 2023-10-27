@@ -74,9 +74,9 @@ function informePreliminarEDITAR(area,fullArea,areaID){
                     
         Swal.fire({
             width:'50%',
-            confirmButtonColor: '#988763',
-            denyButtonColor: '#988763',
-            cancelButtonColor: '#988763',
+            confirmButtonColor: 'var(--color-blanco)',
+            denyButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--color-blanco)',
             title: 'Informe Preliminar: '+fullArea,
             html: html_,
             confirmButtonText: 'Guardar',
@@ -229,9 +229,9 @@ function informePreliminar(area,timerst){
     html_ = html_ + selInput;
     Swal.fire({
         width:'50%',
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'Informe Preliminar: '+getAreaNamebyId(area)['area'],
         html: html_,
@@ -772,9 +772,9 @@ function informePreliminarSegundaParte(area,timerst){
           //*inicia el swetalet
           Swal.fire({
               width:'50%',
-              confirmButtonColor: '#988763',
-              denyButtonColor: '#988763',
-              cancelButtonColor: '#988763',
+              confirmButtonColor: 'var(--color-blanco)',
+              denyButtonColor: 'var(--color-blanco)',
+              cancelButtonColor: 'var(--color-blanco)',
 
               title: 'Informe Preliminar GMX: '+getAreaNamebyId(area)['area'],
               html: formD,

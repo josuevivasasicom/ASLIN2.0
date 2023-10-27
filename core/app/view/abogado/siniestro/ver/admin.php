@@ -9,7 +9,7 @@ if ($k['verificado'] == 'Verificado') {                                //es admi
      </td>';
 }else if ($k['verificado'] != 'Verificado' && $k['usuarioID']==$_SESSION['id']) {                                   //es admin y mostrara el boton de verificar, 
     $col.='<td style="text-transform:lowercase;" >
-    <button data-toggle="modal" data-target="#modalNuevaEntradaBitacora" onclick="disparadorEditarBitacora( \''.$_AreaID.'\',\''.$sn['timerst'].'\'  ,\''.$k['id'].'\' ,\''.$_area.'\' )" class="btn btn-primary btn-sm" >  <i class="nc-icon nc-ruler-pencil"></i>  </button> 
+    <button data-toggle="modal" data-target="#modalNuevaEntradaBitacora" onclick="disparadorEditarBitacora( \''.$_AreaID.'\',\''.$sn['timerst'].'\'  ,\''.$k['id'].'\' ,\''.$_area.'\' )" class="btn btn-primary btn-sm" >  <i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i>  </button> 
     </td>';
 }
 else{

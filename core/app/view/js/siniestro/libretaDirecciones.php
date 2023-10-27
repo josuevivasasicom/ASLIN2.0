@@ -282,7 +282,7 @@ header("Content-type: text/html");
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         let $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                             );
                         let c = contact.record;
@@ -420,7 +420,7 @@ header("Content-type: text/html");
 
                 <div class="form-row subject">
                   <div class="form-group col-md-12">
-                      <input style="#66615b !important;font-size:18px;width:100%;border: 1px solid #DDDDDD !important; font-family: sans-serif;" class='selectEmail js-select2-tags form-control' type="text" placeholder="Asunto" name="subject" id="subject">
+                      <input style="var(--color-blanco) !important;font-size:18px;width:100%;border: 1px solid #DDDDDD !important; font-family: sans-serif;" class='selectEmail js-select2-tags form-control' type="text" placeholder="Asunto" name="subject" id="subject">
                   </div>
                 </div>
 
@@ -442,8 +442,8 @@ header("Content-type: text/html");
               width: "90%",
               title: 'Enviar por correo',
               showCancelButton: true,
-              cancelButtonColor: '#988763',
-              confirmButtonColor: '#988763',
+              cancelButtonColor: 'var(--color-blanco)',
+              confirmButtonColor: 'var(--color-blanco)',
               confirmButtonText: 'Enviar e-mail',
               cancelButtonText: 'salir',
               html: "<style>.tablaEmails tr:nth-child(4n+1){background:#e1e9ed;} .tablaEmails tr:hover{background: #ffedc3b3;color: black;}.tablaEmails tr:nth-child(1){background:#fff;} </style> <table width='100%' class='tablaEmails'>"+listTD+"<table> <br>"+addmails,
@@ -566,7 +566,7 @@ header("Content-type: text/html");
                               }
 
                                       Swal.fire({
-                                        confirmButtonColor: '#988763',
+                                        confirmButtonColor: 'var(--color-blanco)',
                                         confirmButtonText: 'Continuar',
                                         title:texto,
                                         /* showClass: {

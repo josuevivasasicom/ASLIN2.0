@@ -1,5 +1,5 @@
 <page>
-    <draw style="margin:auto; width:180mm; height:180mm; background: #444444; border: solid 0.5mm #777777;">
+    <draw style="margin:auto; width:180mm; height:180mm; background: #444444; border: solid 0.5mm var(--color-main);">
         <g transform="translate(90mm,90mm) scale(1.3) translate(-20mm,-30mm)">
             <g style="fill: #ffffff; stroke:#000000; stroke-width:0.172"><path d="M-122.304 84.285C-122.304 84.285 -122.203 86.179 -123.027 86.16C-123.851 86.141 -140.305 38.066 -160.833 40.309C-160.833 40.309 -143.05 32.956 -122.304 84.285z"/></g>
             <g style="fill: #ffffff; stroke:#000000; stroke-width:0.172"><path d="M-118.774 81.262C-118.774 81.262 -119.323 83.078 -120.092 82.779C-120.86 82.481 -119.977 31.675 -140.043 26.801C-140.043 26.801 -120.82 25.937 -118.774 81.262z"/></g>
