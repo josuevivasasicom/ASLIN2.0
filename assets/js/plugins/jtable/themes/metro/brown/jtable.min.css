@@ -354,7 +354,9 @@ div.jtable-main-container {
 div.jtable-main-container>div.jtable-title {
     background-color: #61380a;
     padding-left: 10px;
-    background: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px !important;
+    background: linear-gradient(90deg, rgba(199,50,103,1) 0%, rgba(42,73,125,1) 50%, rgba(48,153,204,1) 100%);
     color: #6a6a6a;
 }
 
@@ -363,7 +365,7 @@ div.jtable-main-container>div.jtable-title div.jtable-title-text {
     font-weight: 300;
     font-size: 33px !important;
     line-height: 34px;
-    color: #938e8e;
+    color: #ffffff;
     font-size: x-large;
     font-weight: 400;
 }
@@ -388,11 +390,15 @@ div.jtable-main-container>div.jtable-title .jtable-close-button:hover {
 div.jtable-main-container>div.jtable-title div.jtable-toolbar {
     bottom: 0;
     right: 0;
-    position: absolute
+    position: absolute;
+    margin-bottom: 5px;
 }
 
 div.jtable-main-container>div.jtable-title div.jtable-toolbar span.jtable-toolbar-item {
-    background-color: #c0ac81;
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px solid var(--color-blanco);
+    background-color: var(--color-azul);
     color: #fff
 }
 
@@ -401,18 +407,18 @@ div.jtable-main-container>div.jtable-title div.jtable-toolbar span.jtable-toolba
 }
 
 div.jtable-main-container>div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover {
-    background-color: #786b4f;
+    background-color: var(--color-main);
     padding-bottom: 6px
 }
 
 div.jtable-main-container>table.jtable {
-    border: 1px solid #988763;
+    border: 1px solid var(--color-blanco);
     border-collapse: collapse;
     border-spacing: 0
 }
 
 div.jtable-main-container>table.jtable>thead {
-    background-color: #988763
+    background-color: var(--color-main)
 }
 
 div.jtable-main-container>table.jtable>thead th {
@@ -448,7 +454,7 @@ div.jtable-main-container>table.jtable>thead th.jtable-column-header-sorted-desc
 }
 
 div.jtable-main-container>table.jtable>tbody>tr {
-    background-color: #fff
+    background-color: #ececec
 }
 
 div.jtable-main-container>table.jtable>tbody>tr>td {
@@ -466,7 +472,7 @@ div.jtable-main-container>table.jtable>tbody>tr>td i {
 }
 
 div.jtable-main-container>table.jtable>tbody>tr>td i:hover {
-    color: #988763;
+    color: var(--color-blanco);
     cursor: pointer;
 }
 
@@ -498,16 +504,17 @@ div.jtable-main-container>table.jtable>tbody>tr.jtable-data-row>td>.jtable-delet
 }
 
 div.jtable-main-container>table.jtable>tbody>tr.jtable-row-even {
-    background-color: #f9f9f9
+    background-color: #d7d7d7
 }
 
 div.jtable-main-container>table.jtable>tbody>tr:hover {
-    background: #e8eaef
+    color: var(--color-blanco) !important;
+    background:linear-gradient(90deg, rgba(199,50,103,0.7665441176470589) 0%, rgba(42,73,125,0.7245273109243697) 50%, rgba(48,153,204,0.7217261904761905) 100%);
 }
 
 div.jtable-main-container>table.jtable>tbody>tr.jtable-row-selected {
-    color: #fff;background-color: #a57c4e;
-    color: #000;background-color: #ffc10745;
+    color: #fff;background-color: linear-gradient(90deg, rgba(199,50,103,0.7665441176470589) 0%, rgba(42,73,125,0.7245273109243697) 50%, rgba(48,153,204,0.7217261904761905) 100%);
+    color: #000;background-color: linear-gradient(90deg, rgba(199,50,103,0.7665441176470589) 0%, rgba(42,73,125,0.7245273109243697) 50%, rgba(48,153,204,0.7217261904761905) 100%);
 }
 
 div.jtable-main-container>table.jtable>tbody>tr.jtable-row-created {
@@ -530,12 +537,12 @@ div.jtable-main-container>table.jtable>tbody>tr.jtable-child-row>td {
 
 div.jtable-main-container>div.jtable-bottom-panel {
     background-color: #786b4f;
-    background-color: #fff;
+    background-color: #ececec;
     color: #4a4a4a;
     min-height: 22.900000000000002px;
     font-size: 13px;
-    border: 1px solid #988763;
-    border: 5px solid #fff;
+    border: 1px solid var(--color-blanco);
+    border: 5px solid #ececec;
     border-top: none
 }
 
@@ -550,12 +557,12 @@ div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous,
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next,
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-active {
-    background-color: #988763;
+    background-color: var(--color-gris);
     margin: 1px;
     padding: 7px 7px;
-    color: #fff;
+    color: var(--color-main);
     border-radius: 5px;
-}
+    border: 1px solid #3099cc;}
 
 
 /* EDITADO */
@@ -582,18 +589,18 @@ div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-last:hover,
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-previous:hover,
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-next:hover {
-    background-color: #c9b17f;
+    background-color: var(--color-azul);
 }
 
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled {
     opacity: .75;
     filter: alpha(opacity=50);
-    color: #ccc;
+    color: #767676  ;
     cursor: default
 }
 
 div.jtable-main-container>div.jtable-bottom-panel .jtable-page-list .jtable-page-number-disabled:hover {
-    background-color: #988763
+    background-color: var(--color-blanco)
 }
 
 div.jtable-main-container>div.jtable-bottom-panel span.jtable-page-info {
@@ -625,7 +632,7 @@ div.jtable-busy-message {
     padding: 5px 5px 5px 58px;
     color: #fff;
     background: url('../../metro/brown/loading.gif') no-repeat;
-    background-color: #61380a;
+    background-color: var(--color-main);
     background-position: 8px
 }
 

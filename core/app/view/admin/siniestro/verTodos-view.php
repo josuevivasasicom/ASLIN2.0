@@ -174,7 +174,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         <div id="accordion">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
-                                    <button type="button" onclick=selectProv() prov='' class="btn btn-primary  btn-round mr-3 btn_prov btn-link" id="prov" name="prov"><b>Todos -></b></button>
+                                    <button type="button" onclick=selectProv() prov='' class="btn btn-primary2  btn-round mr-3 btn_prov btn-link" id="prov" name="prov"><b>Todos -></b></button>
                                     <!-- <button type="button" onclick="document.location.reload()" class="btn btn-primary  btn-round mr-3 btn_prov" ><b>Todos</b></button> -->
                                     <?php
                                     $provenientes = Folios::obtenerProvenientes();
@@ -192,7 +192,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
 
 
                                 <div class="card-header pt-0 " id="headingtwo">
-                                    <button type="button" onclick="selectStatus()" status="" class="btn btn-primary btn-round mr-3 btn_prov btn-link" id="status" name="status"><b>Todas -></b></button>
+                                    <button type="button" onclick="selectStatus()" status="" class="btn btn-primary2 btn-round mr-3 btn_prov btn-link" id="status" name="status"><b>Todas -></b></button>
                                     <!-- <button type="button" onclick="selectStatus('')" status="" class="btn btn-primary btn-round mr-3 btn_prov btn-link"><b>Ver: Todas</b></button> -->
                                     <!-- <button type="button" onclick="document.location.reload()" class="btn btn-primary  btn-round mr-3 btn_prov" ><b>Ver: Todas</b></button> -->
                                     <?php
@@ -205,7 +205,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                                 <!-- fin row3 -->
 
                                 <div class="card-header pt-0 " id="headingthree">
-                                    <button type="button" onclick="selectCalificacion()" calificacion="" class="btn btn-primary btn-round mr-3 btn_prov btn-link" id="calificacion" name="calificacion"><b>Todas -></b></button>
+                                    <button type="button" onclick="selectCalificacion()" calificacion="" class="btn btn-primary2 btn-round mr-3 btn_prov btn-link" id="calificacion" name="calificacion"><b>Todas -></b></button>
                                     <?php
                                     $calific = Folios::obtenerCalificaciones();
                                     foreach ($calific as $key => $value) {
@@ -217,7 +217,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
 
 
                                 <div class="card-header pt-0 " id="headingtwo">
-                                    <button type="button" onclick="selectArea()" areas="" area="" class="btn btn-primary btn-round mr-3 btn_prov btn-link" id="area" name="area"><b>Todas -></b></button>
+                                    <button type="button" onclick="selectArea()" areas="" area="" class="btn btn-primary2 btn-round mr-3 btn_prov btn-link" id="area" name="area"><b>Todas -></b></button>
                                     <?php
                                     $areasF = Folios::obtenerAreas();
                                     foreach ($areasF as $key => $value) {
@@ -238,7 +238,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                                         }
                                         ?>
                                     </select>
-                                    <button class="btn  btn-prinone btn-round my-0" style="float:right" onclick="laveSelectAbogado()" id="btn_prov_F">Limpiar</button>
+                                    <button class="btn btn-primary btn-round btn_prov" style="float:right" onclick="laveSelectAbogado()" id="btn_prov_F">Limpiar</button>
                                     <!--<button class="btn  btn-prinone btn-round my-0" style="float:right" onclick="buscarUserSiniestros()" id="btn_prov_F">buscar</button>-->
                                 </div>
 
@@ -521,7 +521,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
             toolbar: {
                 items: [{
                         tooltip: 'Columnas para el orden de GMX',
-                        icon: 'https://www.jtable.org/Content/images/Misc/excel.png',
+                        icon: 'https://asicomgraphics.mx/demos/dxlegal/descargar.png',
                         text: 'Exportar Excel',
                         click: function() {
                             downloadAsExcel(paramProvAjax, paramNombres, 'gmx');
@@ -529,7 +529,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                     },
                     {
                         tooltip: 'Exportar a Excel la tabla actual',
-                        icon: 'https://www.jtable.org/Content/images/Misc/excel.png',
+                        icon: 'https://asicomgraphics.mx/demos/dxlegal/descargar.png',
                         text: 'Formato GMX',
                         click: function() {
                             downloadAsExcel(paramProvAjax, paramNombres, 'admin');
@@ -554,7 +554,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></img></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                         );
 
@@ -579,7 +579,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center> <button class="btn btn-primary buttonTable"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></button></center>'
+                            '<center> <button class="btn2 btn-primary3 buttonTable"><img src="https://asicomgraphics.mx/demos/dxlegal/areas.png" style="font-size: 1.5em;"></img></button></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                         );
 
@@ -642,7 +642,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center> <button class="btn btn-primary buttonTable"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></button> </center>'
+                            '<center> <button class="btn2 btn-primary3 buttonTable"><img src="./assets/img/user2.png" style="font-size: 1.5em;"></img></button> </center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                         );
 

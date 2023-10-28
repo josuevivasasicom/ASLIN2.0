@@ -70,7 +70,7 @@ exit(); */
   input{
     background-color: white !important;
     border: 0px solid #DDDDDD !important;
-    color:#66615b !important;
+    color:var(--color-blanco) !important;
   }
 
   
@@ -299,7 +299,7 @@ exit(); */
         <label for="horas">Fecha Actividad: </label>
         <input class="campoBitacora" id="fechaActividad" name="fechaActividad" type="date" required />.
 
-       <textarea class="campoBitacora"  name="nuevaEntrada" id="nuevaEntrada" rows="10" style="width:100%;border:#66615b solid 1px !important" required></textarea>
+       <textarea class="campoBitacora"  name="nuevaEntrada" id="nuevaEntrada" rows="10" style="width:100%;border:var(--color-blanco) solid 1px !important" required></textarea>
        <input name="timerst" id="timerst" class="input form-input" type="hidden" value="<?php echo $sn['timerst'] ?>">
       </div>
       <div class="modal-footer">
@@ -325,7 +325,7 @@ exit(); */
         <div class="d-none" id="inputArea">
 
         </div>
-       <span name="desHechosAnteriores" id="desHechosAnteriores" style="width:100%;border:#66615b solid 0px !important" required></span>
+       <span name="desHechosAnteriores" id="desHechosAnteriores" style="width:100%;border:var(--color-blanco) solid 0px !important" required></span>
        <input name="timerst" id="timerst" class="input form-input" type="hidden" value="<?php echo $sn['timerst'] ?>">
       </div>
       <div class="modal-footer">

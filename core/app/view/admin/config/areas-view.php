@@ -145,7 +145,7 @@ var dataaaa= '';
             toolbar: {
                 items: [{
                     tooltip: 'Exportar a Excel',
-                    icon: 'https://www.jtable.org/Content/images/Misc/excel.png',
+                    icon: 'https://asicomgraphics.mx/demos/dxlegal/descargar.png',
                     text: 'Excel',
                     click: function() {
                         downloadAsExcel(res.Records, 'usuarios_cma_');
@@ -171,7 +171,7 @@ var dataaaa= '';
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></center>'
+                            '<center><span class="jtable-page-number-first jtable-page-number-disabled"><img class="nc-icon nc-layout-11" style="font-size: 1.5em;" src="./assets/img/user.png"></span></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                             );
 
@@ -252,7 +252,7 @@ var dataaaa= '';
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i alt="Editar" class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             );
                         $img.click(function() {
                                 editArea(area.record); //funcion de JS con swetAlert
@@ -354,9 +354,9 @@ var dataaaa= '';
                     
                 Swal.fire({
                     
-                confirmButtonColor: '#988763',
-                denyButtonColor: '#988763',
-                cancelButtonColor: '#988763',
+                confirmButtonColor: 'var(--color-blanco)',
+                denyButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--color-blanco)',
 
                 title: 'Crear nueva Área.',
                 html: html_,

@@ -24,7 +24,7 @@ $dataFilesSelect= Config::datosSelectFilesUoload(); //datos del input de tipo de
   input{
     background-color: white !important;
     border: 0px solid #DDDDDD !important;
-    color:#66615b !important;
+    color:var(--color-blanco) !important;
   }
 </style>
 
@@ -127,7 +127,7 @@ $dataFilesSelect= Config::datosSelectFilesUoload(); //datos del input de tipo de
       <div class="modal-body" id="modalFileViewBody">
         <label for="horas">Horas en número: </label>
         <input id="horasBitacora" name="horasBitacora" type="number" maxlength="2" value="1" min=0.5 max="24" step=".5" required /> hrs.
-       <textarea name="nuevaEntrada" id="nuevaEntrada" rows="10" style="width:100%;border:#66615b solid 1px !important" required></textarea>
+       <textarea name="nuevaEntrada" id="nuevaEntrada" rows="10" style="width:100%;border:var(--color-blanco) solid 1px !important" required></textarea>
        <input name="timerst" id="timerst" class="input form-input" type="hidden" value="<?php echo $sn['timerst'] ?>">
       </div>
       <div class="modal-footer">
@@ -692,9 +692,9 @@ function disparadorFile(){
     html_ = html_ + selInput;
     Swal.fire({
       width: 800,
-    confirmButtonColor: '#988763',
-    denyButtonColor: '#988763',
-    cancelButtonColor: '#988763',
+    confirmButtonColor: 'var(--color-blanco)',
+    denyButtonColor: 'var(--color-blanco)',
+    cancelButtonColor: 'var(--color-blanco)',
 
     title: 'Seleccionar archivo: ',
     html: html_,
@@ -987,9 +987,9 @@ var ejemplo='';
                         denyButtonText: `Ir a todos`,
                         cancelButtonText: 'Crear Nuevo',
 
-                        confirmButtonColor: '#988763',
-                        denyButtonColor: '#988763',
-                        cancelButtonColor: '#988763',
+                        confirmButtonColor: 'var(--color-blanco)',
+                        denyButtonColor: 'var(--color-blanco)',
+                        cancelButtonColor: 'var(--color-blanco)',
 
                         allowOutsideClick: false
                     }).then((result) => {
@@ -1013,7 +1013,7 @@ var ejemplo='';
                         text: 'Por favor intentalo nuevamente',
                         confirmButtonText: 'OK',
                         footer: 'Sentimos las molestias',
-                        confirmButtonColor: '#988763',
+                        confirmButtonColor: 'var(--color-blanco)',
                     })
                 } 
             }
@@ -1102,9 +1102,9 @@ var ejemplo='';
         html_ = html_ + selInput;
         Swal.fire({
             width:'50%',
-            confirmButtonColor: '#988763',
-            denyButtonColor: '#988763',
-            cancelButtonColor: '#988763',
+            confirmButtonColor: 'var(--color-blanco)',
+            denyButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--color-blanco)',
             title: 'Primera Atención: ',
             html: html_,
             confirmButtonText: 'Guardar',
@@ -1280,9 +1280,9 @@ var ejemplo='';
     html_ = html_ + selInput;
     Swal.fire({
         width:'50%',
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'Informe Preliminar: ',
         html: html_,
@@ -1386,9 +1386,9 @@ var ejemplo='';
     html_ = html_ + selInput;
     Swal.fire({
         width:'50%',
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
         title: 'Informe Cancelación: ',
         html: html_,
         confirmButtonText: 'Guardar',

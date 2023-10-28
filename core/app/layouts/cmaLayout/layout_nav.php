@@ -46,7 +46,7 @@ if ($_SESSION["rol"] == 4){
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
             <div>
                 <div class="input-group no-border">
-                    <input name="buscarAsegurado" id="buscarAsegurado"  type="text" class="form-control" placeholder="Buscar Asegurado..." style="background-color: rgba(222, 222, 222, 0.3) !important;border: medium none;">
+                    <input name="buscarAsegurado" id="buscarAsegurado"  type="text" class="form-control2" placeholder="Buscar Asegurado..." style="background-color: #fff !important;border: medium none;">
                     <div onclick="buscarAsegurado()" class="input-group-append" style="cursor:pointer">
                         <div class="input-group-text px-1">
                         <i class="nc-icon nc-zoom-split"></i>
@@ -57,7 +57,7 @@ if ($_SESSION["rol"] == 4){
             <span style="color:transparent"> .</span>
             <div>
                 <div class="input-group no-border">
-                    <input style="max-width: 100px;" name="buscarID" id="buscarID" pattern="[^'\x]+" type="text" class="form-control" placeholder="Buscar ID..." style="background-color: rgba(222, 222, 222, 0.3) !important;border: medium none;">
+                    <input style="max-width: 100px;" name="buscarID" id="buscarID" pattern="[^'\x]+" type="text" class="form-control2" placeholder="Buscar ID..." style="background-color: #fff !important;border: medium none;">
                     <div onclick="buscarid()" class="input-group-append" style="cursor:pointer">
                         <div class="input-group-text px-1">
                         <i class="nc-icon nc-zoom-split"></i>
@@ -68,7 +68,7 @@ if ($_SESSION["rol"] == 4){
             <span style="color:transparent"> .</span>
             <div>
                 <div class="input-group no-border">
-                    <input style="max-width: 100px;" name="buscarNS" id="buscarNS" pattern="[^'\x]+" type="text" class="form-control" placeholder="Buscar NS..." style="background-color: rgba(222, 222, 222, 0.3) !important;border: medium none;">
+                    <input style="max-width: 100px;" name="buscarNS" id="buscarNS" pattern="[^'\x]+" type="text" class="form-control2" placeholder="Buscar NS..." style="background-color: #fff !important;border: medium none;">
                     <div onclick="buscarNS()" class="input-group-append" style="cursor:pointer">
                         <div class="input-group-text px-1">
                         <i class="nc-icon nc-zoom-split"></i>
@@ -113,7 +113,7 @@ if ($_SESSION["rol"] == 4){
                 <a class="nav-link dropdown-toggle p-0 d-flex align-items-center" href="#s" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <!-- <i class="nc-icon nc-single-02"></i> -->
                                     <div class="avatar " style="width: 42px;display: inline-block;margin-right: 12px;">
-                                      <img src="<?=$_SESSION['avatar'];?>" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                                      <img src="<?php echo $foto = isset($_SESSION['avatar']) && $_SESSION['avatar'] ? $_SESSION['avatar'] : './avatares/userDefault/1680310002.png';?>" alt="Circle Image" class="img-circle img-no-padding img-responsive">
                                   </div>
                                  
                                   <p class="text-capitalize">

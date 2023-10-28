@@ -252,7 +252,7 @@ var dataaaa= '';
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center><i alt="Editar" class="nc-icon nc-ruler-pencil"></i></center>'
+                            '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                             );
                         $img.click(function() {
                                 editArea(area.record); //funcion de JS con swetAlert
@@ -354,9 +354,9 @@ var dataaaa= '';
                     
                 Swal.fire({
                     
-                confirmButtonColor: '#988763',
-                denyButtonColor: '#988763',
-                cancelButtonColor: '#988763',
+                confirmButtonColor: 'var(--color-blanco)',
+                denyButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--color-blanco)',
 
                 title: 'Crear nueva Área.',
                 html: html_,

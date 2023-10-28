@@ -300,9 +300,9 @@ window.onload = function() {
                             denyButtonText: `Ir a todos`,
                             cancelButtonText: 'Crear Nuevo',
 
-                            confirmButtonColor: '#988763',
-                            denyButtonColor: '#988763',
-                            cancelButtonColor: '#988763',
+                            confirmButtonColor: 'var(--color-blanco)',
+                            denyButtonColor: 'var(--color-blanco)',
+                            cancelButtonColor: 'var(--color-blanco)',
 
                             allowOutsideClick: false
                         }).then((result) => {
@@ -325,7 +325,7 @@ window.onload = function() {
                             text: 'Por favor intentalo nuevamente',
                             confirmButtonText: 'OK',
                             footer: 'Sentimos las molestias',
-                            confirmButtonColor: '#988763',
+                            confirmButtonColor: 'var(--color-blanco)',
                         })
                     }
                 }
@@ -553,8 +553,8 @@ function cambiaNombre() {
         allowOutsideClick: false,
         title: 'Editar Nombre Asegurado',
         showCancelButton: true,
-        cancelButtonColor: '#988763',
-        confirmButtonColor: '#988763',
+        cancelButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-blanco)',
         confirmButtonText: 'Cambiar',
         cancelButtonText: 'salir',
         html: `
@@ -784,7 +784,7 @@ function emailsSendPrepare() {
 
                 <div class="form-row subject">
                 <div class="form-group col-md-12">
-                    <input style="#66615b !important;font-size:18px;width:100%;border: 1px solid #DDDDDD !important; font-family: sans-serif;" class='selectEmail js-select2-tags form-control' type="text" placeholder="Asunto" name="subject" id="subject">
+                    <input style="var(--color-blanco) !important;font-size:18px;width:100%;border: 1px solid #DDDDDD !important; font-family: sans-serif;" class='selectEmail js-select2-tags form-control' type="text" placeholder="Asunto" name="subject" id="subject">
                 </div>
                 </div>
 
@@ -806,8 +806,8 @@ function emailsSendPrepare() {
                 width: "90%",
                 title: 'Enviar por correo',
                 showCancelButton: true,
-                cancelButtonColor: '#988763',
-                confirmButtonColor: '#988763',
+                cancelButtonColor: 'var(--color-blanco)',
+                confirmButtonColor: 'var(--color-blanco)',
                 confirmButtonText: 'Enviar e-mail',
                 cancelButtonText: 'salir',
                 html: "<style>.tablaEmails tr:nth-child(4n+1){background:#e1e9ed;} .tablaEmails tr:hover{background: #ffedc3b3;color: black;}.tablaEmails tr:nth-child(1){background:#fff;} </style> <table width='100%' class='tablaEmails'>" +
@@ -971,7 +971,7 @@ function emailsSendPrepare() {
                                     }
 
                                     Swal.fire({
-                                        confirmButtonColor: '#988763',
+                                        confirmButtonColor: 'var(--color-blanco)',
                                         confirmButtonText: 'Continuar',
                                         title: texto,
                                         /* showClass: {
@@ -1031,8 +1031,8 @@ function editPoliza(i) {
         // width: "70%",
         title: 'Editar poliza',
         showCancelButton: true,
-        cancelButtonColor: '#988763',
-        confirmButtonColor: '#988763',
+        cancelButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-blanco)',
         confirmButtonText: 'Guardar',
         cancelButtonText: 'salir',
         html: `
@@ -1285,9 +1285,9 @@ function disparadorFile(area) {
     html_ = html_ + selInput;
     Swal.fire({
         width: 800,
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
 
         title: 'Seleccionar archivo: ',
         html: html_,

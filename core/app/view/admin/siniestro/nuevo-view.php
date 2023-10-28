@@ -222,11 +222,12 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                   ]); */
 
                     CKEDITOR.replace('descripcionHechos', {
-                        uiColor: '#ede6c6',
+                        uiColor: '#e4e4e4',
                         editorplaceholder: 'Descripcion de hechos',
                         placeholder: 'Descripcion de hechos',
                         width: '100%',
                         height: 450,
+                        
                      /* plugins: [ 'Bold', 'Italic', 'Underline', 'Strikethrough', 'Code', 'Subscript', 'Superscript' ],
                         toolbar: {
                             items: [ 'bold', 'italic', 'underline', 'strikethrough', 'code','subscript', 'superscript'  ]
@@ -838,9 +839,9 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                                 denyButtonText: `Ir a todos`,
                                 cancelButtonText: 'Crear Nuevo',
 
-                                confirmButtonColor: '#988763',
-                                denyButtonColor: '#988763',
-                                cancelButtonColor: '#988763',
+                                confirmButtonColor: 'var(--color-blanco)',
+                                denyButtonColor: 'var(--color-blanco)',
+                                cancelButtonColor: 'var(--color-blanco)',
 
                                 allowOutsideClick: false
                             }).then((result) => {
@@ -863,7 +864,7 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                                 text: 'Por favor intentalo nuevamente',
                                 confirmButtonText: 'OK',
                                 footer: 'Sentimos las molestias',
-                                confirmButtonColor: '#988763',
+                                confirmButtonColor: 'var(--color-blanco)',
                             })
                             setTimeout(() => {
                                 Swal.hideLoading();
@@ -887,7 +888,7 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                     text: 'Por favor intentalo nuevamente',
                     confirmButtonText: 'OK',
                     footer: 'Todos los campos son obligatorios',
-                    confirmButtonColor: '#988763',
+                    confirmButtonColor: 'var(--color-blanco)',
                 }).then((result)=>{
                     setTimeout(() => {
                         document.querySelector("#nuevoSiniestro").reportValidity()

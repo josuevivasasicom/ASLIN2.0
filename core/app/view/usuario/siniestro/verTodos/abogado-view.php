@@ -736,9 +736,9 @@ error_reporting(1);*/
             else if (result.isDenied) 
          */
         Swal.fire({
-        confirmButtonColor: '#988763',
-        denyButtonColor: '#988763',
-        cancelButtonColor: '#988763',
+        confirmButtonColor: 'var(--color-blanco)',
+        denyButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--color-blanco)',
         title: 'Selecciona archivo a importar',
         input: 'file',
         inputAttributes: {
@@ -936,9 +936,9 @@ error_reporting(1);*/
         html_ = html_ + selInput;
         Swal.fire({
             width:'50%',
-            confirmButtonColor: '#988763',
-            denyButtonColor: '#988763',
-            cancelButtonColor: '#988763',
+            confirmButtonColor: 'var(--color-blanco)',
+            denyButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--color-blanco)',
 
             title: 'Primera Atención: ',
             html: html_,
@@ -1062,9 +1062,9 @@ error_reporting(1);*/
         html_ = html_ + selInput;
         Swal.fire({
             width:'50%',
-            confirmButtonColor: '#988763',
-            denyButtonColor: '#988763',
-            cancelButtonColor: '#988763',
+            confirmButtonColor: 'var(--color-blanco)',
+            denyButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--color-blanco)',
 
             title: 'Informe Preliminar: ',
             html: html_,

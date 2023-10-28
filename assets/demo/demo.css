@@ -1,9 +1,30 @@
+@import url('../css/paper-dashboard.css');
+
+:root {
+  --color-main: #2A497D;
+  --color-dark:#152439;
+  --degradado-nav: linear-gradient(90deg, rgba(199,50,103,1) 0%, rgba(42,73,125,1) 50%, rgba(48,153,204,1) 100%);
+  --fondo-degradado: rgb(199,50,103);
+  --color-fondo: #d7d7d7;
+  --fondo-graficas: #ececec;
+  --color-blanco: #ffffff;
+  --color-turquesa:#6be9f1;
+  --color-gris:#e7e7e7;
+  --color-azul:#3099cc;
+  
+  --tamaño-titulos: 12px;
+  --tamaño-subtitulos: 10px;
+}
+
+
+
+
 .tim-row {
   margin-bottom: 20px;
 }
 
 .tim-white-buttons {
-  background-color: #777777;
+  background-color: var(--color-main);
 }
 
 .typography-line {
@@ -19,7 +40,7 @@
   color: #c0c1c2;
   display: block;
   font-weight: 400;
-  font-size: 13px;
+  font-size: var(--tamaño-titulos);
   line-height: 13px;
   left: 0;
   position: absolute;
@@ -186,4 +207,101 @@
   box-shadow: none;
   outline: none;
   display: none;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(199,50,103,1) 0%, rgba(42,73,125,1) 50%, rgba(48,153,204,1) 100%)!important;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-radius: 10px;
+}
+
+.sidebar {
+  background-color: var(--color-main)!important;
+}
+
+
+.logo-footer {
+    z-index: 999999999;
+    position: fixed;
+    bottom: 10px;
+}
+
+a.logo-footer {
+  padding: 11px 0 8px;
+}
+
+.form-control,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-selection--single
+{
+  border-radius: 16px !important;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 13px, transparent 13px) 0% 0%/16px 16px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 13px, transparent 13px) 100% 0%/16px 16px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 13px, transparent 13px) 0% 100%/16px 16px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 13px, transparent 13px) 100% 100%/16px 16px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 32px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 6px) no-repeat,
+            linear-gradient(305deg, #c73267 0%, #2a497d 50%, #3099CC 100%);
+box-sizing: border-box;
+}
+
+#cke_descripcionHechos{
+  border-color: none !important;
+  border-radius: 10px !important;
+
+}
+
+.cke_1 .cke_top,
+.cke_1 .cke_bottom, 
+.cke_inner {
+  border-radius: 10px !important;
+}
+
+.input-group-append .input-group-text, .input-group-prepend .input-group-text{
+  color: #333333;
+}
+
+.form-group .form-control+.input-group-prepend .input-group-text, .form-group .form-control+.input-group-append .input-group-text, .input-group .form-control+.input-group-prepend .input-group-text, .input-group .form-control+.input-group-append .input-group-text{
+  padding: 10px 10px 10px 10px;
+}
+
+.form-control+.input-group-append .input-group-text, .form-control+.input-group-prepend .input-group-text{
+  background-color: transparent;
+  border: none;
+}
+
+.form-control2{
+  border-radius: 16px !important;
+  background: #fff; 
+  box-sizing: border-box;
+  border: none !important;
+}
+
+.mt-1, .my-1 {
+  margin-top: 0.25rem!important;
+  border-radius: 10px !important;
+}
+
+a.dropdown-item,
+a.dropdown-item:focus,
+a.dropdown-item:focus-visible,
+a.dropdown-item:hover{
+  color: var(--color-dark)!important;
+}
+
+.btn2,
+.navbar2 .navbar-nav2 > a.btn2 {
+  color: var(--color-gris) !important;
+
+    border: none !important;
+    background: radial-gradient(circle at   100% 100%, #ececec 10px, #ececec 10px, transparent 10px) 0% 0%/16px 16px no-repeat,
+              radial-gradient(circle at 0 100%, #ececec 0, #ececec 10px, transparent 10px) 100% 0%/16px 16px no-repeat,
+              radial-gradient(circle at 100% 0, #ececec 0, #ececec 10px, transparent 10px) 0% 100%/16px 16px no-repeat,
+              radial-gradient(circle at 0 0, #ececec 0, #ececec 10px, transparent 10px) 100% 100%/16px 16px no-repeat,
+              linear-gradient(#ececec, #ececec) 50% 50%/calc(100% - 5px) calc(100% - 5px) no-repeat,
+              linear-gradient(#ececec, #ececec) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
+              linear-gradient(305deg, #c73267 0%, #2a497d 50%, #3099CC 100%);
+  box-sizing: border-box;
+
 }

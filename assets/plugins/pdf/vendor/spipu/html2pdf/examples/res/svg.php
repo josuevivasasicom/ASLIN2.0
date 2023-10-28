@@ -2,7 +2,7 @@
 .main-draw {
     margin: auto;
     background: #000000;
-    border: solid 0.5mm #777777;
+    border: solid 0.5mm var(--color-main);
     width:150mm;
     height:100mm;
 }

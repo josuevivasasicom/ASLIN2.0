@@ -416,7 +416,7 @@
             .notification-item{
                 border-bottom: 1px solid #F1EAE0;
                 font-size: 16px;
-                color: #66615b;
+                color: var(--color-blanco);
 
                 .notification-text{
                     padding-left: 40px;
@@ -456,7 +456,7 @@
                     text-decoration: none;
 
                     .notification-text{
-                        color: #66615b;
+                        color: var(--color-blanco);
                         background-color: #F0EFEB !important;
                     }
                     .read-notification{

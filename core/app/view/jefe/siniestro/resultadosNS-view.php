@@ -524,7 +524,7 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                             //Create an image that will be used to open child table
                             // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                             var $img = $(
-                                '<center><i class="nc-icon nc-ruler-pencil"></i></center>'
+                                '<center><i><img src="https://asicomgraphics.mx/demos/dxlegal/editar.png"></i></center>'
                                 //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                                 );
 
