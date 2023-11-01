@@ -180,9 +180,9 @@ function primeraAtencionEDITAR(area,fullArea,areaID){
                     
         Swal.fire({
             width:'50%',
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
             title: 'Primera Atención: '+fullArea,
             html: html_,
             confirmButtonText: 'Guardar',
@@ -322,9 +322,9 @@ function primeraAtencion(area,timerst){
     html_ = html_ + selInput;
     Swal.fire({
         width:'50%',
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
         title: 'Primera Atención: '+getAreaNamebyId(area)['area'],
         html: html_,
         confirmButtonText: 'Guardar',

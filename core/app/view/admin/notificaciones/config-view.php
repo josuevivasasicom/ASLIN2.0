@@ -388,9 +388,9 @@ window.addEventListener('DOMContentLoaded',()=>{
                     // denyButtonText: `Ir a todos`,
                     // cancelButtonText: 'Crear Nuevo',
 
-                    confirmButtonColor: 'var(--color-blanco)',
+                    confirmButtonColor: 'var(--color-dark)',
                     denyButtonColor: 'var(--color-blanco)',
-                    cancelButtonColor: 'var(--color-blanco)',
+                    cancelButtonColor: 'var(--fondo-degradado)',
 
                     allowOutsideClick: false
                 }).then((result) => {
@@ -409,9 +409,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 
 /* function changeAvatar(){
         Swal.fire({
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
         title: 'Elige una imagen para Avatar',
         input: 'image',
         inputAttributes: {
@@ -461,9 +461,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 function changeAvatarPPPPPPPPP(){
         
         Swal.fire({
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
         title: 'Remplazar imagen de perfil',
         input: 'file',
         inputAttributes: {

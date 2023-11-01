@@ -1,3 +1,10 @@
+
+<?php 
+
+header("Cache-Control: no-cache, must-revalidate");
+header("Expires: Sat, 1 Jul 2000 05:00:00 GMT"); 
+
+?>
 <?php $ruta = $_SERVER["HTTP_HOST"]; ?>
 <!-- Copyright Creative Tim  -->
 <!-- Implements by ASICOM GRAPHICS -->
@@ -7,6 +14,12 @@
 
 <head>
   <meta charset="utf-8" />
+  
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Last-Modified" content="0">
+  <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -25,7 +38,7 @@
       display: block;
       width: 100%;
       height: 100%;
-      background-color: #fff;
+      background-color: #fbfbfb;
       opacity: 1;
       z-index: 9999;
       transition: all .5s ease-in-out;
@@ -204,7 +217,7 @@
           <div class="row">
             <nav class="footer-nav">
               <ul>
-                <li><a href="https://cma.mx" target="_blank">cma.mx</a></li>
+                <li><a href="https://dxlegal.mx" target="_blank">dxlegal.mx</a></li>
               </ul>
             </nav>
             <div class="credits ml-auto">
@@ -221,7 +234,7 @@
   <!--?? contenido de la vista -->
 
   <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js"></script>
+  <script src="./assets/js/core/jquery.min.js?v=<?php echo date('YmdHis');?>"></script>
   <!-- <script src="./assets/js/core/popper.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 

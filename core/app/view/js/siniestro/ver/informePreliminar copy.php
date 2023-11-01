@@ -73,9 +73,9 @@ function informePreliminarEDITAR(area,fullArea,areaID){
                     
         Swal.fire({
             width:'50%',
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
             title: 'Informe Preliminar: '+fullArea,
             html: html_,
             confirmButtonText: 'Guardar',
@@ -538,9 +538,9 @@ function informePreliminar(area,timerst,calificacion,folio,nombre,numReporte,fec
     html_ = html_ + selInput;
     Swal.fire({
         width:'50%',
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
 
         title: 'Informe Preliminar: '+getAreaNamebyId(area)['area'],
         html: html_,

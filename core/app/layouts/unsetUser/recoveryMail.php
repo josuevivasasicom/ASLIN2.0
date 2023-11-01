@@ -26,10 +26,10 @@ if(isset($_REQUEST['recoveryMail']) and $_REQUEST['recoveryMail']==''){
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <!-- CSS Files -->
-  <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="./assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <link href="./assets/css/bootstrap.min.css?v=<?php echo date('YmdHis');?>" rel="stylesheet" />
+  <link href="./assets/css/paper-dashboard.css?v=<?php echo date('YmdHis');?>" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <link href="./assets/demo/demo.css?v=<?php echo date('YmdHis');?>" rel="stylesheet" />
   <style>
     .has-error .form-control, .form-control.error {
       background-color: #FFC0A4;

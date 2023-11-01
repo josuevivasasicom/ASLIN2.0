@@ -83,9 +83,9 @@ function informeCancelacionEDITAR(area,fullArea,areaID){
 
       Swal.fire({
           width:'50%',
-          confirmButtonColor: 'var(--color-blanco)',
+          confirmButtonColor: 'var(--color-dark)',
           denyButtonColor: 'var(--color-blanco)',
-          cancelButtonColor: 'var(--color-blanco)',
+          cancelButtonColor: 'var(--fondo-degradado)',
 
           title: 'Editar Informe Cancelación: '+fullArea,
           html: selInput,
@@ -323,9 +323,9 @@ function informeCancelacion(area,timerst){
   html_ = html_ + selInput;
   Swal.fire({
       width:'50%',
-      confirmButtonColor: 'var(--color-blanco)',
+      confirmButtonColor: 'var(--color-dark)',
       denyButtonColor: 'var(--color-blanco)',
-      cancelButtonColor: 'var(--color-blanco)',
+      cancelButtonColor: 'var(--fondo-degradado)',
       title: 'Informe Cancelación: '+getAreaNamebyId(area)['area'], 
       html: html_,
       confirmButtonText: 'Guardar',

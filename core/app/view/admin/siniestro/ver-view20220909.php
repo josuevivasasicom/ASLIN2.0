@@ -781,7 +781,7 @@ foreach ($sn['areasAsignadas'] as $k) {
                       <div class="row">
                       <div class="col-2">
                           <button type="button" onclick="disparadorFile('<?=$_AreaID?>')" class="btn btn-primary">añadir archivo</button>
-                          <button type="button" style='float: right;' class='btn btn-primary' onclick="createLinksFiles('<?=$_area?>', '<?=$_AREA?>','<?=$_AreaID?>')" > <i class='fa fa-cloud-download' aria-hidden='true'></i> </button>
+                          <button type="button" style='float: right;' class='btn btn-primary' onclick="createLinksFiles('<?=$_area?>', '<?=$_AREA?>','<?=$_AreaID?>')" > <i class='' aria-hidden='true'><img class="icon-custom" src="./assets/img/icons/cloud.png" alt="" srcset=""> </i> </button>
                           <button type="button" style='float: right;' class='btn btn-primary' onclick="createLinksFilesForMail('<?=$_area?>', '<?=$_AREA?>','<?=$_AreaID?>')" > <i class='fa fa-envelope-o' aria-hidden='true'></i> </button>
                         </div>
                         <div class="col-10">

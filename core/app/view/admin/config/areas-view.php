@@ -354,9 +354,9 @@ var dataaaa= '';
                     
                 Swal.fire({
                     
-                confirmButtonColor: 'var(--color-blanco)',
+                confirmButtonColor: 'var(--color-dark)',
                 denyButtonColor: 'var(--color-blanco)',
-                cancelButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--fondo-degradado)',
 
                 title: 'Crear nueva Área.',
                 html: html_,

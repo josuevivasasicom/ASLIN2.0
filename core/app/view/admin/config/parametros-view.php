@@ -1222,9 +1222,9 @@ header("Content-type: text/html");
                         <input id='idProv' value="` + prov.id + `" type="hidden" style="display:none">
                         `,
             Swal.fire({
-                confirmButtonColor: 'var(--color-blanco)',
+                confirmButtonColor: 'var(--color-dark)',
                 denyButtonColor: 'var(--color-blanco)',
-                cancelButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--fondo-degradado)',
 
                 title: 'ID: ' + prov.id,
                 html: html_,
@@ -1317,9 +1317,9 @@ header("Content-type: text/html");
                         <input id='background' value="" class="swal2-input" placeholder="" style="display:none">
                         `,
             Swal.fire({
-                confirmButtonColor: 'var(--color-blanco)',
+                confirmButtonColor: 'var(--color-dark)',
                 denyButtonColor: 'var(--color-blanco)',
-                cancelButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--fondo-degradado)',
 
                 title: 'Crear nuevo Prov.',
                 html: html_,
@@ -1429,9 +1429,9 @@ header("Content-type: text/html");
 
 
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Crear nuevo Abog.',
             html: html_,
@@ -1563,9 +1563,9 @@ header("Content-type: text/html");
                         <input type="text" id="descripcion"   value=""    class="swal2-input" placeholder="Descripción" style="text-transform: uppercase;width:90%;">
                         `;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Crear nueva clasificasión.',
             html: html_,
@@ -1636,9 +1636,9 @@ header("Content-type: text/html");
                         <input type="text" id="descripcion"   value=""    class="swal2-input" placeholder="Descripción" style="text-transform: uppercase;width:90%;">
                         `;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Crear nueva clasificación.',
             html: html_,
@@ -1743,9 +1743,9 @@ header("Content-type: text/html");
                         <input type="text" id="descripcion"   value=""    class="swal2-input" placeholder="Descripción" style="text-transform: uppercase;width:90%;">
                         `;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Crear nueva clasificación.',
             html: html_,
@@ -1816,9 +1816,9 @@ header("Content-type: text/html");
                         `;
         html_ = html_ + selInput;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Nueva institución ',
             html: html_,
@@ -1894,9 +1894,9 @@ header("Content-type: text/html");
             `"    class="swal2-input" placeholder="id" style="width:90%;">`;
         html_ = html_ + selInput;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'ID: ' + inst.id,
             html: html_,
@@ -1965,9 +1965,9 @@ header("Content-type: text/html");
                        `;
         html_ = html_ + selInput;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'Nueva Autoridad ',
             html: html_,
@@ -2043,9 +2043,9 @@ header("Content-type: text/html");
             `"    class="swal2-input" placeholder="id" style=";width:90%;">`;
         html_ = html_ + selInput;
         Swal.fire({
-            confirmButtonColor: 'var(--color-blanco)',
+            confirmButtonColor: 'var(--color-dark)',
             denyButtonColor: 'var(--color-blanco)',
-            cancelButtonColor: 'var(--color-blanco)',
+            cancelButtonColor: 'var(--fondo-degradado)',
 
             title: 'ID: ' + autoridad.id,
             html: html_,
@@ -2099,7 +2099,7 @@ header("Content-type: text/html");
 
     }
     </script>
-    <button onclick="optionsDst()" class="btn">Clicked</button>
+    <!-- <button onclick="optionsDst()" class="btn">Clicked</button> -->
 
     <style defer>
     .swal2-file,

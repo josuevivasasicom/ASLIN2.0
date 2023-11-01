@@ -579,7 +579,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center> <button class="btn2 btn-primary3 buttonTable"><img src="https://asicomgraphics.mx/demos/dxlegal/areas.png" style="font-size: 1.5em;"></img></button></center>'
+                            '<center> <button class="gradiant"><img class="btn-table" src="https://asicomgraphics.mx/demos/dxlegal/areas.png" style="font-size: 1.5em;"></img></button></center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                         );
 
@@ -642,7 +642,7 @@ print('<style>.notouch{pointer-events:none}' . $cssStyle . '</style>');
                         //Create an image that will be used to open child table
                         // var $img = $('<img src="/Content/images/Misc/phone.png" title="Edit phone numbers" />');
                         var $img = $(
-                            '<center> <button class="btn2 btn-primary3 buttonTable"><img src="./assets/img/user2.png" style="font-size: 1.5em;"></img></button> </center>'
+                            '<center> <button class="gradiant"><img class="btn-table" src="./assets/img/user2.png" style="font-size: 1.5em;"></img></button> </center>'
                             //'<center><btn class="btn btn-sm btn-outline-danger btn-round btn-icon"><i class="nc-icon nc-layout-11" style="font-size: 1.5em;"></i></btn></center>'
                         );
 
