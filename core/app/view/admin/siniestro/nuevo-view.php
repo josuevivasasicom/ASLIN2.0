@@ -839,9 +839,9 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                                 denyButtonText: `Ir a todos`,
                                 cancelButtonText: 'Crear Nuevo',
 
-                                confirmButtonColor: 'var(--color-blanco)',
+                                confirmButtonColor: 'var(--color-dark)',
                                 denyButtonColor: 'var(--color-blanco)',
-                                cancelButtonColor: 'var(--color-blanco)',
+                                cancelButtonColor: 'var(--fondo-degradado)',
 
                                 allowOutsideClick: false
                             }).then((result) => {
@@ -864,7 +864,7 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                                 text: 'Por favor intentalo nuevamente',
                                 confirmButtonText: 'OK',
                                 footer: 'Sentimos las molestias',
-                                confirmButtonColor: 'var(--color-blanco)',
+                                confirmButtonColor: 'var(--color-dark)',
                             })
                             setTimeout(() => {
                                 Swal.hideLoading();
@@ -888,7 +888,7 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                     text: 'Por favor intentalo nuevamente',
                     confirmButtonText: 'OK',
                     footer: 'Todos los campos son obligatorios',
-                    confirmButtonColor: 'var(--color-blanco)',
+                    confirmButtonColor: 'var(--color-dark)',
                 }).then((result)=>{
                     setTimeout(() => {
                         document.querySelector("#nuevoSiniestro").reportValidity()

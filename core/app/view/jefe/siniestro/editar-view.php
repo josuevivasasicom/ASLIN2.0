@@ -448,9 +448,9 @@ core::sendVarToJs(json_encode($Sedit['timerst']), 'timerst'); // util para titul
                                 // denyButtonText: `Ir a todos`,
                                 // cancelButtonText: 'Crear Nuevo',
 
-                                confirmButtonColor: 'var(--color-blanco)',
+                                confirmButtonColor: 'var(--color-dark)',
                                 denyButtonColor: 'var(--color-blanco)',
-                                cancelButtonColor: 'var(--color-blanco)',
+                                cancelButtonColor: 'var(--fondo-degradado)',
 
                                 allowOutsideClick: false
                             }).then((result) => {
@@ -464,7 +464,7 @@ core::sendVarToJs(json_encode($Sedit['timerst']), 'timerst'); // util para titul
                                 text: 'Por favor intentalo nuevamente',
                                 confirmButtonText: 'OK',
                                 footer: 'Sentimos las molestias',
-                                confirmButtonColor: 'var(--color-blanco)',
+                                confirmButtonColor: 'var(--color-dark)',
                             })
                         }
                     },
@@ -480,7 +480,7 @@ core::sendVarToJs(json_encode($Sedit['timerst']), 'timerst'); // util para titul
                     text: 'Por favor intentalo nuevamente',
                     confirmButtonText: 'OK',
                     footer: 'Todos los campos son obligatorios',
-                    confirmButtonColor: 'var(--color-blanco)',
+                    confirmButtonColor: 'var(--color-dark)',
                 }).then((result)=>{
                     document.querySelector("#editarSiniestro").reportValidity();
                 })

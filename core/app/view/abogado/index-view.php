@@ -13,7 +13,7 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
                 <div class="row">
                   <div class="col-5 col-md-4">
                     <div class="icon-big text-center icon-warning">
-                      <i class="nc-icon nc-globe text-warning"></i>
+                      <i class=""><img src="./assets/img/icons/4.png" alt="" srcset=""></i>
                     </div>
                   </div>
                   <div class="col-7 col-md-8">
@@ -62,7 +62,8 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
           <div class="row">
             <div class="col-5 col-md-4">
               <div class="icon-big text-center icon-warning">
-                <i class="nc-icon nc-bank text-success"></i>
+                                      <i class=""><img src="./assets/img/icons/3.png" alt="" srcset=""></i>
+
               </div>
             </div>
             <div class="col-7 col-md-8">
@@ -84,7 +85,8 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
           <div class="row">
             <div class="col-5 col-md-4 mr-0">
               <div class="icon-big text-center icon-warning">
-                <i class="nc-icon nc-time-alarm text-danger"></i>
+                                      <i class=""><img src="./assets/img/icons/2.png" alt="" srcset=""></i>
+
               </div>
             </div>
             <div class="col-7 col-md-8 pl-0">
@@ -361,7 +363,7 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
 
   function arrayColores(longitud) {
 
-    var colores = ['#e3e3e3', '#fff6a5', '#fcc468', '#ef8157', '#19c3e6', '#b9ec66', '#e7a5ff', '#5988ff', '#ff6959', '#ff91cd', '#91ecff', '#ef8157', '#d0adff', '#b9ec66', '#e7a5ff', '#5988ff'];
+    var colores = ['#25497D', '#D9884F', '#D05C5B', '#C82E67', '#742C65', '#362A64', '#e7a5ff', '#5988ff', '#ff6959', '#ff91cd', '#91ecff', '#ef8157', '#d0adff', '#b9ec66', '#e7a5ff', '#5988ff'];
 
     let colorsFilterlongitud = colores.filter((element, index) => index > parseInt(longitud));
 
@@ -389,7 +391,7 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
           pointRadius: 2,
           pointHoverRadius: 0,
           backgroundColor: arrayColores(longitudMas),
-          borderWidth: 10,
+          
           // data: [342, 480, 530, 120]
           data: Ddatas
         }]
@@ -447,7 +449,7 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
     ctx = document.getElementById('chartCalificaciones').getContext("2d");
 
     myChart = new Chart(ctx, {
-      type: 'pie',
+      type: 'doughnut',
       data: {
         labels: Dlabels,
         datasets: [{
@@ -508,7 +510,7 @@ $TotalSiniestrosCancelados = SiniestrosAbogado::countTodosSiniestrosCancelados()
     ctx = document.getElementById('chartStatus').getContext("2d");
 
     myChart = new Chart(ctx, {
-      type: 'pie',
+      type: 'doughnut',
       data: {
         labels: Dlabels,
         datasets: [{

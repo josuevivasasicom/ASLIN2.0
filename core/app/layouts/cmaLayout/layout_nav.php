@@ -117,9 +117,9 @@ if ($_SESSION["rol"] == 4){
                                   </div>
                                  
                                   <p class="text-capitalize">
-                                      <small> <span class="d-md-block text-right text-primary"><?=UserData::getPerfil()[1];?></span> </small>
+                                      <small> <span style="font-weight: bold;" class="d-md-block text-left text-primary"><?=UserData::getPerfil()[1];?></span> </small>
                                       <?=UserData::getPerfil()[0];?> <br>
-                                      <small> <span class="d-md-block text-right text-primary"><?=$_SESSION['nombre'].' '.$_SESSION['paterno']?></span> </small>
+                                      <small> <span class="d-md-block text-left text-primary" style="font-size: 18px; font-weight: bold;"><?=$_SESSION['nombre'].' '.$_SESSION['paterno']?></span> </small>
                                 </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">

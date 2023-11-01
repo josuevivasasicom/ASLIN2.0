@@ -300,9 +300,9 @@ window.onload = function() {
                             denyButtonText: `Ir a todos`,
                             cancelButtonText: 'Crear Nuevo',
 
-                            confirmButtonColor: 'var(--color-blanco)',
+                            confirmButtonColor: 'var(--color-dark)',
                             denyButtonColor: 'var(--color-blanco)',
-                            cancelButtonColor: 'var(--color-blanco)',
+                            cancelButtonColor: 'var(--fondo-degradado)',
 
                             allowOutsideClick: false
                         }).then((result) => {
@@ -325,7 +325,7 @@ window.onload = function() {
                             text: 'Por favor intentalo nuevamente',
                             confirmButtonText: 'OK',
                             footer: 'Sentimos las molestias',
-                            confirmButtonColor: 'var(--color-blanco)',
+                            confirmButtonColor: 'var(--color-dark)',
                         })
                     }
                 }
@@ -553,8 +553,8 @@ function cambiaNombre() {
         allowOutsideClick: false,
         title: 'Editar Nombre Asegurado',
         showCancelButton: true,
-        cancelButtonColor: 'var(--color-blanco)',
-        confirmButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
+        confirmButtonColor: 'var(--color-dark)',
         confirmButtonText: 'Cambiar',
         cancelButtonText: 'salir',
         html: `
@@ -806,8 +806,8 @@ function emailsSendPrepare() {
                 width: "90%",
                 title: 'Enviar por correo',
                 showCancelButton: true,
-                cancelButtonColor: 'var(--color-blanco)',
-                confirmButtonColor: 'var(--color-blanco)',
+                cancelButtonColor: 'var(--fondo-degradado)',
+                confirmButtonColor: 'var(--color-dark)',
                 confirmButtonText: 'Enviar e-mail',
                 cancelButtonText: 'salir',
                 html: "<style>.tablaEmails tr:nth-child(4n+1){background:#e1e9ed;} .tablaEmails tr:hover{background: #ffedc3b3;color: black;}.tablaEmails tr:nth-child(1){background:#fff;} </style> <table width='100%' class='tablaEmails'>" +
@@ -971,7 +971,7 @@ function emailsSendPrepare() {
                                     }
 
                                     Swal.fire({
-                                        confirmButtonColor: 'var(--color-blanco)',
+                                        confirmButtonColor: 'var(--color-dark)',
                                         confirmButtonText: 'Continuar',
                                         title: texto,
                                         /* showClass: {
@@ -1031,8 +1031,8 @@ function editPoliza(i) {
         // width: "70%",
         title: 'Editar poliza',
         showCancelButton: true,
-        cancelButtonColor: 'var(--color-blanco)',
-        confirmButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
+        confirmButtonColor: 'var(--color-dark)',
         confirmButtonText: 'Guardar',
         cancelButtonText: 'salir',
         html: `
@@ -1285,9 +1285,9 @@ function disparadorFile(area) {
     html_ = html_ + selInput;
     Swal.fire({
         width: 800,
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
 
         title: 'Seleccionar archivo: ',
         html: html_,

@@ -28,10 +28,10 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                     <div class="author">
                         <a onclick="filedemo()" href="#">
                             <img class="avatar border-gray" src="<?=$_SESSION['avatar'];?>" alt="...">
-                            <h5 class="title"><?=$_SESSION['nombre'].' '.$_SESSION['paterno']?></h5>
-                            <h5 class=""><?=$_SESSION['grupo'][0]?></h5>
+                            <h5 class="title text-dark"><?=$_SESSION['nombre'].' '.$_SESSION['paterno']?></h5>
+                            <h5 class="text-dark"><?=$_SESSION['grupo'][0]?></h5>
                         </a>
-                        <p class="description">
+                        <p class="description text-dark">
                             <?=$_SESSION['email']?>
                         </p>
                     </div>
@@ -124,9 +124,6 @@ print('<style>.notouch{pointer-events:none}'.$cssStyle.'</style>');
                                 <div class="form-group">
                                     <label>Nombre</label>
                                     <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="nombreLic">Lic. </span>
-                                        </div>
                                         <input type="text" class="form-control" name="nombre" placeholder="Nombre" aria-describedby="nombreLic" value="<?=explode('. ',$_SESSION['nombre'])[1]?>">
                                     </div>
                                 </div>
@@ -388,9 +385,9 @@ window.addEventListener('DOMContentLoaded',()=>{
                     // denyButtonText: `Ir a todos`,
                     // cancelButtonText: 'Crear Nuevo',
 
-                    confirmButtonColor: 'var(--color-blanco)',
+                    confirmButtonColor: 'var(--color-dark)',
                     denyButtonColor: 'var(--color-blanco)',
-                    cancelButtonColor: 'var(--color-blanco)',
+                    cancelButtonColor: 'var(--fondo-degradado)',
 
                     allowOutsideClick: false
                 }).then((result) => {
@@ -409,9 +406,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 
 /* function changeAvatar(){
         Swal.fire({
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
         title: 'Elige una imagen para Avatar',
         input: 'image',
         inputAttributes: {
@@ -461,9 +458,9 @@ window.addEventListener('DOMContentLoaded',()=>{
 function changeAvatarPPPPPPPPP(){
         
         Swal.fire({
-        confirmButtonColor: 'var(--color-blanco)',
+        confirmButtonColor: 'var(--color-dark)',
         denyButtonColor: 'var(--color-blanco)',
-        cancelButtonColor: 'var(--color-blanco)',
+        cancelButtonColor: 'var(--fondo-degradado)',
         title: 'Remplazar imagen de perfil',
         input: 'file',
         inputAttributes: {

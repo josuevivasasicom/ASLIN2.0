@@ -214,6 +214,7 @@
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     border-radius: 10px;
+    color: #152439!important;
 }
 
 .sidebar {
@@ -290,18 +291,111 @@ a.dropdown-item:hover{
   color: var(--color-dark)!important;
 }
 
-.btn2,
-.navbar2 .navbar-nav2 > a.btn2 {
-  color: var(--color-gris) !important;
 
-    border: none !important;
-    background: radial-gradient(circle at   100% 100%, #ececec 10px, #ececec 10px, transparent 10px) 0% 0%/16px 16px no-repeat,
-              radial-gradient(circle at 0 100%, #ececec 0, #ececec 10px, transparent 10px) 100% 0%/16px 16px no-repeat,
-              radial-gradient(circle at 100% 0, #ececec 0, #ececec 10px, transparent 10px) 0% 100%/16px 16px no-repeat,
-              radial-gradient(circle at 0 0, #ececec 0, #ececec 10px, transparent 10px) 100% 100%/16px 16px no-repeat,
-              linear-gradient(#ececec, #ececec) 50% 50%/calc(100% - 5px) calc(100% - 5px) no-repeat,
-              linear-gradient(#ececec, #ececec) 50% 50%/calc(100% - 4px) calc(100% - 4px) no-repeat,
-              linear-gradient(305deg, #c73267 0%, #2a497d 50%, #3099CC 100%);
-  box-sizing: border-box;
 
+
+.back-image {
+  background-image: url('../img/bg/bgsidebar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%!important;
+}
+
+
+.img-logo {
+  width: 400px !important;
+}
+
+#fomLogin {
+  width: 80%!important;
+}
+
+#fomLogin img {
+  width: 100px!important;
+}
+
+#fomLogin .form-control {
+  background-image: none !important;
+  background: #fff;
+}
+
+#fomLogin .input-group-text {
+  border: none !important;
+  font-size: 20px !important;
+}
+
+#fomLogin .input-group-text i {
+  width: 25px !important;
+}
+.btn-ingresar {
+  background: transparent;
+  border: solid 3px #3099CC;
+}
+.gradiant {
+  width: 50px !important;
+  height: 50px !important;
+  border: none !important;
+  background-size: cover;
+  border-radius: 5px;
+  background-image: url('../img/bg/1.1.jpg');
+}
+.btn-table {
+  border: none !important;
+  background: #d7d7d7;
+  padding: 10px;
+}
+div.jtable-main-container {
+  border-radius: 20px !important;
+  overflow: hidden !important;
+}
+#dataUser .form-group .form-control {
+  color: var(--color-dark)!important;
+}
+.form-group .form-control {
+  color: var(--color-dark)!important;
+}
+#tabs .nav-tabs .nav-link {
+  color: #152439!important;  
+}
+.table-siniestro .form-control {
+  color: #152439!important;
+}
+.btn-special {
+  background-color: #152439 !important;
+}
+.tab-pane .btn-secundary {
+  background-color: #152439 !important;
+}
+
+
+.bg-btn {
+  background-color: #152439;
+}
+
+
+.icon-custom {
+  width: 20px!important;
+}
+
+.btn-primary:not(.btn-link) {
+  border-radius: 16px !important;
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 13px, transparent 13px) 0% 0%/16px 16px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 13px, transparent 13px) 100% 0%/16px 16px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 13px, transparent 13px) 0% 100%/16px 16px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 13px, transparent 13px) 100% 100%/16px 16px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 32px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 32px) calc(100% - 6px) no-repeat,
+            linear-gradient(305deg, #c73267 0%, #2a497d 50%, #3099CC 100%)!important;
+box-sizing: border-box!important;
+color: var(--color-dark)!important;
+}
+
+select[name="theTable3_length"],
+input[type="search"] 
+{
+  color: var(--color-dark)!important;
+  font-weight: bold!important;
 }

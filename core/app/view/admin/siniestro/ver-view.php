@@ -133,7 +133,7 @@ exit(); */
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-secondary" onclick="cambiaAutoridad()">Guardar</button>
+				<button type="button" class="btn btn-primary" onclick="cambiaAutoridad()">Guardar</button>
 			</div>
 		</div>
 	</div>
@@ -201,7 +201,7 @@ exit(); */
 </div>
 <div class="modal-footer">
 	<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-	<button type="button" class="btn btn-secondary" onclick="cambiaInstitucion()">Guardar</button>
+	<button type="button" class="btn btn-primary" onclick="cambiaInstitucion()">Guardar</button>
 </div>
 </div>
 </div>
@@ -242,7 +242,7 @@ exit(); */
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-secondary" onclick="cambiaStatus()">Guardar</button>
+				<button type="button" class="btn btn-primary" onclick="cambiaStatus()">Guardar</button>
 			</div>
 		</div>
 	</div>
@@ -280,7 +280,7 @@ exit(); */
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-secondary" onclick="cambiaCalificacion()">Guardar</button>
+				<button type="button" class="btn btn-primary" onclick="cambiaCalificacion()">Guardar</button>
 			</div>
 		</div>
 	</div>
@@ -311,7 +311,7 @@ exit(); */
 				<input type="hidden" value="<?= $sn['timerst'] ?>" name="timerstFile" id="timerstFile">
 				<input type="hidden" value="null" name="nombreAreaFile" id="nombreAreaFile">
 
-				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-secondary">Enviar por Outlook</button> -->
+				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-primary">Enviar por Outlook</button> -->
 				<button onclick="emailsSendPrepare()" plataforma type="button" class="btn btn-primary">Enviar por
 					plataforma</button>
 
@@ -349,7 +349,7 @@ exit(); */
 				<input type="hidden" value="<?= $sn['timerst'] ?>" name="timerstFile" id="timerstFile">
 				<input type="hidden" value="null" name="nombreAreaFile" id="nombreAreaFile">
 
-				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-secondary">Enviar por Outlook</button> -->
+				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-primary">Enviar por Outlook</button> -->
 				<button onclick="emailsSendPrepare()" plataforma type="button" class="btn btn-primary">Enviar por
 					plataforma</button>
 
@@ -419,7 +419,7 @@ exit(); */
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-secondary"
+				<button type="button" class="btn btn-primary"
 					onclick="this.disabled=true;asignArea()">Asignar</button>
 			</div>
 		</div>
@@ -480,7 +480,7 @@ exit(); */
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-				<button type="button" class="btn btn-secondary"
+				<button type="button" class="btn btn-primary"
 					onclick="this.disabled=true;asignAbogado()">Asignar</button>
 
 			</div>
@@ -516,7 +516,7 @@ exit(); */
 						value="<?php echo $sn['timerst'] ?>">
 				</div>
 				<div class="modal-footer">
-					<button type="button" type class="btn  btn-secondary" data-dismiss="modal">Cerrar</button>
+					<button type="button" type class="btn  btn-primary" data-dismiss="modal">Cerrar</button>
 					<input class="btn  btn-primary" type="submit" value="Guardar Entrada">
 				</div>
 			</form>
@@ -545,7 +545,7 @@ exit(); */
 					value="<?php echo $sn['timerst'] ?>">
 			</div>
 			<div class="modal-footer">
-				<button type="button" type class="btn  btn-secondary" data-dismiss="modal">Cerrar</button>
+				<button type="button" type class="btn  btn-primary" data-dismiss="modal">Cerrar</button>
 				<!-- <input class="btn  btn-primary" type="submit" value="Guardar Entrada"> -->
 			</div>
 		</div>
@@ -572,7 +572,7 @@ exit(); */
 						value="<?php echo $sn['timerst'] ?>">
 				</div>
 				<div class="modal-footer">
-					<button type="button" type class="btn  btn-secondary" data-dismiss="modal">Cerrar</button>
+					<button type="button" type class="btn  btn-primary" data-dismiss="modal">Cerrar</button>
 					<input class="btn  btn-primary" id="btnEditDescripcion" type="button" value="Guardar Entrada">
 				</div>
 			</div>
@@ -605,7 +605,7 @@ exit(); */
 				<input type="hidden" value="<?= $sn['timerst'] ?>" name="timerstFile" id="timerstFile">
 				<input type="hidden" value="null" name="nombreAreaFile" id="nombreAreaFile">
 
-				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-secondary">Enviar por Outlook</button> -->
+				<!-- <button onclick="emailsSendOutlook()" outlook type="button" class="btn btn-primary">Enviar por Outlook</button> -->
 				<!-- <button onclick="emailsSendPrepare()" plataforma type="button" class="btn btn-primary">Enviar por plataforma</button> -->
 
 				<button type="button" class="btn btn-outline-primary " data-dismiss="modal">Cerrar</button>
@@ -756,7 +756,7 @@ exit(); */
 											if (isset($sn[$_area]['primeratencion']['primera_atencion']) == 1) {
 												$bts = "
                             <div style='float: right;margin-right: -3em;' class='btn-group' role='group' aria-label='Basic example'>
-                              <button style='float: right;' class='btn btn-secondary' onclick='primeraAtencionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
+                              <button style='float: right;' class='btn btn-primary' onclick='primeraAtencionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
                               <button style='float: right;' class='btn btn-primary' onclick='primeraAtencionLINK(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-envelope-o' aria-hidden='true'></i> </button> </center>
                             </div>
                             ";
@@ -765,8 +765,8 @@ exit(); */
 												print $sn[$_area]['primeratencion']['primera_atencion'];
 											} else {
 												// <button class="btn btn-primary" onclick="primeraAtencion(\''.$sn['timerst'].'\',\''.$sn['folio'].'\',\''.$sn['nombre'].'\',\''.$sn['numReporte'].'\',\''.$sn['fechaReporte_F2'].'\',\''.$sn['vigencia1_F2'].'\',\''.$sn['vigencia2_F2'].'\',\''.$sn['fechaAsignacion_F2'].'\',\''.$sn['fechaCaptura_F2'].'\',\''.$sn['institucion'].'\',\''.$sn['autoridad'].'\',\''.$sn['telefonos'].'\',\''.$sn['mail'].'\')" >cargar Primera Atención</button>
-												print '<center><button class="btn btn-primary"  onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'primera_atencion\',\'' . $_AREA . '\')" >Notificar al abogado asignado</button>';
-												print '<button class="btn btn-secondary" onclick="primeraAtencion(' . $_AreaID . ',\'' . $sn['timerst'] . '\')" >Cargar Primera Atención</button> </center>';
+												print "<center><button class='btn btn-primary'  onclick=\"notificarAbogado('" . $sn['timerst'] . "','primera_atencion','" . $_AREA . "')\">Notificar al abogado asignado</button>";
+												print "<button class='btn btn-primary' onclick=\"primeraAtencion('" . $_AreaID . "','". $sn['timerst'] . "')\" >Cargar Primera Atención</button> </center>";
 											}
 											;
 											?>
@@ -777,10 +777,10 @@ exit(); */
 									<div id="informePreliminarC" style="width:100%;">
 										<?php
 										if (isset($sn[$_area]['informePreliminar']['informe_preliminar']) == 1) {
-											// print '<button style="float: right;" class="btn btn-secondary" onclick="informePreliminarEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Preliminar</button> </center>';
+											// print '<button style="float: right;" class="btn btn-primary" onclick="informePreliminarEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Preliminar</button> </center>';
 									
 											$action = 'onclick="informePreliminarSegundaParte(' . $_AreaID . ',\'' . $sn['timerst'] . '\',\'' . $sn[$_area]['calificacion'] . '\',\'' . $sn['folio'] . '\',\'' . $sn['nombre'] . ' ' . $sn['apellidoP'] . ' ' . $sn['apellidoM'] . '\',\'' . $sn['numReporte'] . '\',\'' . $sn['fechaReporte'] . '\',\'' . $sn['vigencia1'] . '\',\'' . $sn['vigencia2'] . '\',\'' . $sn['fechaAsignacion'] . '\',\'' . $sn['fechaCaptura'] . '\',\'' . '\',\'' . '\',\'' . $sn['telefonos'] . '\',\'' . $sn['mail'] . '\',\'' . $sn['formaContacto'] . '\',\'' . $sn['poliza'] . '\',\'' . $sn['numSiniestro'] . '\',\'' . $sn['fechaReporte'] . '\',\'' . $sn['vigencia1'] . '\',\'' . $sn['vigencia2'] . '\',\'' . $sn['fechaAsignacion'] . '\',\'' . $sn['fechaCaptura'] . '\')" ';
-											$btnSegundaPart = "<button style='float: right;' class='btn btn-secondary' $action > Continuar Formato </button> </center>";
+											$btnSegundaPart = "<button style='float: right;' class='btn btn-primary' $action > Continuar Formato </button> </center>";
 											if ($sn[$_area]['informePreliminar']['segundaParte'])
 												$btnSegundaPart = '';
 											$bts = "
@@ -803,7 +803,7 @@ exit(); */
 											}
 										} else {
 											print '<center><button class="btn btn-primary" onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'informe_preliminar\',\'' . $_AREA . '\')" >Notificar al abogado asignado</button>';
-											print '<button class="btn btn-secondary" onclick="informePreliminar(' . $_AreaID . ',\'' . $sn['timerst'] . '\')" >Cargar informe Preliminar</button> </center>';
+											print '<button class="btn btn-primary" onclick="informePreliminar(' . $_AreaID . ',\'' . $sn['timerst'] . '\')" >Cargar informe Preliminar</button> </center>';
 										}
 										;
 										?>
@@ -816,10 +816,10 @@ exit(); */
 										<?php
 
 										if (isset($sn[$_area]['informeCancelacion']['informe_cancelacion'])) {
-											// print '<button style="float: right;" class="btn btn-secondary" onclick="informeCancelacionEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Cancelación</button> </center>';
+											// print '<button style="float: right;" class="btn btn-primary" onclick="informeCancelacionEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Cancelación</button> </center>';
 											$bts = "
                               <div style='float: right;margin-right: -3em;' class='btn-group' role='group' aria-label='Basic example'>
-                                <button style='float: right;' class='btn btn-secondary' onclick='informeCancelacionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
+                                <button style='float: right;' class='btn btn-primary' onclick='informeCancelacionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
                                 <button style='float: right;' class='btn btn-primary' onclick='informeCancelacionLINK(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-envelope-o' aria-hidden='true'></i> </button> </center>
                               </div>
                               ";
@@ -827,8 +827,8 @@ exit(); */
 											$sn[$_area]['informeCancelacion']['informe_cancelacion'] = urldecode($sn[$_area]['informeCancelacion']['informe_cancelacion']);
 											print $sn[$_area]['informeCancelacion']['informe_cancelacion'];
 										} else {
-											print '<center><button class="btn btn-primary" onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'informe_cancelacion\',\'' . $_AREA . '\') >Notificar al abogado asignado</button>';
-											print '<button class="btn btn-secondary" onclick="informeCancelacion(' . $_AreaID . ',\'' . $sn['timerst'] . '\',\'' . $sn['calificacion'] . '\',\'' . $sn['folio'] . '\',\'' . $sn['nombre'] . ' ' . $sn['apellidoP'] . ' ' . $sn['apellidoM'] . '\',\'' . $sn['numReporte'] . '\',\'' . $sn['fechaReporte_F2'] . '\',\'' . $sn['vigencia1_F2'] . '\',\'' . $sn['vigencia2_F2'] . '\',\'' . $sn['fechaAsignacion_F2'] . '\',\'' . $sn['fechaCaptura_F2'] . '\',\'' . '\',\'' . '\',\'' . $sn['telefonos'] . '\',\'' . $sn['mail'] . '\',\'' . $sn['formaContacto'] . '\',\'' . $sn['poliza'] . '\')" >cargar informe Cancelación</button> </center>';
+											print '<center><button class="btn btn-primary" onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'informe_cancelacion\',\'' . $_AREA . '\')" >Notificar al abogado asignado</button>';
+											print '<button class="btn btn-primary" onclick="informeCancelacion(' . $_AreaID . ',\'' . $sn['timerst'] . '\',\'' . $sn['calificacion'] . '\',\'' . $sn['folio'] . '\',\'' . $sn['nombre'] . ' ' . $sn['apellidoP'] . ' ' . $sn['apellidoM'] . '\',\'' . $sn['numReporte'] . '\',\'' . $sn['fechaReporte_F2'] . '\',\'' . $sn['vigencia1_F2'] . '\',\'' . $sn['vigencia2_F2'] . '\',\'' . $sn['fechaAsignacion_F2'] . '\',\'' . $sn['fechaCaptura_F2'] . '\',\'' . '\',\'' . '\',\'' . $sn['telefonos'] . '\',\'' . $sn['mail'] . '\',\'' . $sn['formaContacto'] . '\',\'' . $sn['poliza'] . '\')" >cargar informe Cancelación</button> </center>';
 										}
 										;
 										?>
@@ -840,10 +840,10 @@ exit(); */
 										<?php
 
 										if (isset($sn[$_area]['informeActualizacion']['informe_actualizacion'])) {
-											// print '<button style="float: right;" class="btn btn-secondary" onclick="informeActualizacionEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Actualización</button> </center>';
+											// print '<button style="float: right;" class="btn btn-primary" onclick="informeActualizacionEDITAR(\''.$_area.'\',\''.$_AREA.'\',\''.$_AreaID.'\')" >Editar Informe Actualización</button> </center>';
 											$bts = "
                               <div style='float: right;margin-right: -3em;' class='btn-group' role='group' aria-label='Basic example'>
-                                <button style='float: right;' class='btn btn-secondary' onclick='informeActualizacionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
+                                <button style='float: right;' class='btn btn-primary' onclick='informeActualizacionEDITAR(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-pencil' aria-hidden='true'></i> </button> </center>
                                 <button style='float: right;' class='btn btn-primary' onclick='informeActualizacionLINK(\"" . $_area . "\",\"" . $_AREA . "\",\"" . $_AreaID . "\")' > <i class='fa fa-envelope-o' aria-hidden='true'></i> </button> </center>
                               </div>
                               ";
@@ -851,15 +851,15 @@ exit(); */
 											$sn[$_area]['informeActualizacion']['informe_actualizacion'] = urldecode($sn[$_area]['informeActualizacion']['informe_actualizacion']);
 											print $sn[$_area]['informeActualizacion']['informe_actualizacion'];
 										} else {
-											print '<center><button class="btn btn-primary" onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'informe_actualizacion\',\'' . $_AREA . '\') >Notificar al abogado asignado</button>';
-											print '<button class="btn btn-secondary" onclick="informeActualizacion(' . $_AreaID . ',\'' . $sn['timerst'] . '\',\'' . $sn['calificacion'] . '\',\'' . $sn['folio'] . '\',\'' . $sn['nombre'] . ' ' . $sn['apellidoP'] . ' ' . $sn['apellidoM'] . '\',\'' . $sn['numReporte'] . '\',\'' . $sn['fechaReporte_F2'] . '\',\'' . $sn['vigencia1_F2'] . '\',\'' . $sn['vigencia2_F2'] . '\',\'' . $sn['fechaAsignacion_F2'] . '\',\'' . $sn['fechaCaptura_F2'] . '\',\'' . '\',\'' . '\',\'' . $sn['telefonos'] . '\',\'' . $sn['mail'] . '\',\'' . $sn['formaContacto'] . '\',\'' . $sn['poliza'] . '\')" >cargar informe Actualización</button> </center>';
+											print '<center><button class="btn btn-primary" onclick="notificarAbogado(\'' . $sn['timerst'] . '\',\'informe_actualizacion\',\'' . $_AREA . '\')" >Notificar al abogado asignado</button>';
+											print '<button class="btn btn-primary bg-btn" onclick="informeActualizacion(' . $_AreaID . ',\'' . $sn['timerst'] . '\',\'' . $sn['calificacion'] . '\',\'' . $sn['folio'] . '\',\'' . $sn['nombre'] . ' ' . $sn['apellidoP'] . ' ' . $sn['apellidoM'] . '\',\'' . $sn['numReporte'] . '\',\'' . $sn['fechaReporte_F2'] . '\',\'' . $sn['vigencia1_F2'] . '\',\'' . $sn['vigencia2_F2'] . '\',\'' . $sn['fechaAsignacion_F2'] . '\',\'' . $sn['fechaCaptura_F2'] . '\',\'' . '\',\'' . '\',\'' . $sn['telefonos'] . '\',\'' . $sn['mail'] . '\',\'' . $sn['formaContacto'] . '\',\'' . $sn['poliza'] . '\')" >cargar informe Actualización</button> </center>';
 										}
 										;
 										?>
 									</div>
 								</div>
 
-								<!--<button class="btn btn-primary" onclick="notificarAbogado('1688500502.0518','informe_preliminar','Servidores Públicos')" >Notificar al abogado asignado</button><button class="btn btn-secondary" onclick="informePreliminar(1,'1688500502.0518')" >Cargar informe Preliminar</button> </center>-->
+								<!--<button class="btn btn-primary" onclick="notificarAbogado('1688500502.0518','informe_preliminar','Servidores Públicos')" >Notificar al abogado asignado</button><button class="btn btn-primary" onclick="informePreliminar(1,'1688500502.0518')" >Cargar informe Preliminar</button> </center>-->
 
 								<!-- BITACORA -->
 								<div class="tab-pane mt-2 " id="bitacora<?php echo $_area; ?>" role="tabpanel"
@@ -952,7 +952,7 @@ exit(); */
 													class="btn btn-primary">añadir archivo</button>
 												<button type="button" style='float: right;' class='btn btn-primary'
 													onclick="createLinksFiles('<?= $_area ?>', '<?= $_AREA ?>','<?= $_AreaID ?>')">
-													<i class='fa fa-cloud-download' aria-hidden='true'></i> </button>
+													<i class='' aria-hidden='true'><img class="icon-custom" src="./assets/img/icons/cloud.png" alt="" srcset=""> </i> </button>
 												<button type="button" style='float: right;' class='btn btn-primary'
 													onclick="createLinksFilesForMail('<?= $_area ?>', '<?= $_AREA ?>','<?= $_AreaID ?>')">
 													<i class='fa fa-envelope-o' aria-hidden='true'></i> </button>
@@ -1118,8 +1118,8 @@ exit(); */
 							class="btn btn-primary" data-toggle="modal"
 							data-target="#modalFileCaratula">caratula</button></td>
 
-						<!-- <button style="float: right;" class="btn btn-secondary btn-special" onclick="window.location.href = '.?view=siniestro/editar&timerst=<?= $sn['timerst'] ?>';" >Caratula</button> </center> -->
-						<button style="float: right;" class="btn btn-secondary btn-special"
+						<!-- <button style="float: right;" class="btn btn-primary btn-special" onclick="window.location.href = '.?view=siniestro/editar&timerst=<?= $sn['timerst'] ?>';" >Caratula</button> </center> -->
+						<button style="float: right;" class="btn btn-primary btn-special"
 							onclick="window.location.href = '.?view=siniestro/editar&timerst=<?= $sn['timerst'] ?>';">EDITAR
 							ID</button>
 						<div class="table">

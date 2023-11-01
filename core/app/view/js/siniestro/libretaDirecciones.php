@@ -442,8 +442,8 @@ header("Content-type: text/html");
               width: "90%",
               title: 'Enviar por correo',
               showCancelButton: true,
-              cancelButtonColor: 'var(--color-blanco)',
-              confirmButtonColor: 'var(--color-blanco)',
+              cancelButtonColor: 'var(--fondo-degradado)',
+              confirmButtonColor: 'var(--color-dark)',
               confirmButtonText: 'Enviar e-mail',
               cancelButtonText: 'salir',
               html: "<style>.tablaEmails tr:nth-child(4n+1){background:#e1e9ed;} .tablaEmails tr:hover{background: #ffedc3b3;color: black;}.tablaEmails tr:nth-child(1){background:#fff;} </style> <table width='100%' class='tablaEmails'>"+listTD+"<table> <br>"+addmails,
@@ -566,7 +566,7 @@ header("Content-type: text/html");
                               }
 
                                       Swal.fire({
-                                        confirmButtonColor: 'var(--color-blanco)',
+                                        confirmButtonColor: 'var(--color-dark)',
                                         confirmButtonText: 'Continuar',
                                         title:texto,
                                         /* showClass: {

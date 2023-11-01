@@ -82,9 +82,9 @@ function informeActualizacionEDITAR(area,fullArea,areaID){
 
       Swal.fire({
           width:'50%',
-          confirmButtonColor: 'var(--color-blanco)',
+          confirmButtonColor: 'var(--color-dark)',
           denyButtonColor: 'var(--color-blanco)',
-          cancelButtonColor: 'var(--color-blanco)',
+          cancelButtonColor: 'var(--fondo-degradado)',
 
           title: 'Editar Informe Actualización: '+fullArea,
           html: selInput,
@@ -207,9 +207,9 @@ function informeActualizacion(area,timerst){
       html_ = html_ + selInput;
       Swal.fire({
           width:'50%',
-          confirmButtonColor: 'var(--color-blanco)',
+          confirmButtonColor: 'var(--color-dark)',
           denyButtonColor: 'var(--color-blanco)',
-          cancelButtonColor: 'var(--color-blanco)',
+          cancelButtonColor: 'var(--fondo-degradado)',
 
           title: 'Informe Actualización: '+getAreaNamebyId(area)['area'],
           html: html_,
